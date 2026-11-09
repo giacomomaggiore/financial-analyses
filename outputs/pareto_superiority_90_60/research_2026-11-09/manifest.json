@@ -1,0 +1,500 @@
+{
+  "retrieved_at_utc": "2026-11-09T20:21:03.717821+00:00",
+  "purpose": "Supplemental replication research; existing notebook and data snapshots are unchanged.",
+  "datasets": [
+    {
+      "file": "data/NTSG_NAV_USD_WISDOMTREE.CSV",
+      "observations": 507,
+      "first": "2024-11-06",
+      "last": "2026-11-06",
+      "sha256": "32c0037d32643bc63c9b857f37220acd6dd0cbf998d40c8da238690147deffd8",
+      "ticker": "NTSG_NAV_USD_WISDOMTREE",
+      "asset_name": "NTSG official accumulating share-class NAV, USD",
+      "currency": "USD",
+      "ter": 0.0025,
+      "return_type": "Accumulating NAV, already net of expenses; no additional distribution reinvestment or TER deduction.",
+      "source": "https://www.wisdomtree.com/api/fund-history/54028991?view=navHistory",
+      "acquisition": "Public product page View NAV History, browser same-origin fetch.",
+      "limitations": "Fund valuation calendar; NAV dates and valuation times can differ from index and exchange closes."
+    },
+    {
+      "file": "data/SWINKELS_US_10Y_LOCAL_MONTHLY.CSV",
+      "observations": 913,
+      "first": "1946-12-31",
+      "last": "2022-12-31",
+      "sha256": "dd0ee65d210e1943498ba32a3268c676f1010d7dfc66f7eed7512d7efaa9f9e1",
+      "ticker": "SWINKELS_US_10Y_LOCAL_MONTHLY",
+      "asset_name": "Swinkels synthetic US approximately 10-year government bond local total-return level",
+      "currency": "USD",
+      "ter": 0.0,
+      "return_type": "Yield-derived synthetic local-currency government bond total return; no fund fees.",
+      "source": "https://doi.org/10.25397/eur.8152748.v6",
+      "source_file": "International Monthly Government Bond Returns.ods",
+      "source_sheet": "Improved_US_1947",
+      "licence": "CC BY 4.0",
+      "citation": "Swinkels, Laurens (2023), Historical Data: International monthly government bond returns, Erasmus University Rotterdam, dataset v6.",
+      "limitations": "Not futures; approximately 10-year constant-maturity par-bond reconstruction. Stops December 2022. DE returns refer to DEM before 1999 and EUR thereafter; currency label EUR does not turn pre-euro levels into historical EUR assets."
+    },
+    {
+      "file": "data/SWINKELS_DE_10Y_LOCAL_MONTHLY.CSV",
+      "observations": 604,
+      "first": "1972-09-30",
+      "last": "2022-12-31",
+      "sha256": "6868fd77508ffb75788794c9eb7d0651d6a89b0147bdaa4baafeae455e3cdacc",
+      "ticker": "SWINKELS_DE_10Y_LOCAL_MONTHLY",
+      "asset_name": "Swinkels synthetic DE approximately 10-year government bond local total-return level",
+      "currency": "EUR",
+      "ter": 0.0,
+      "return_type": "Yield-derived synthetic local-currency government bond total return; no fund fees.",
+      "source": "https://doi.org/10.25397/eur.8152748.v6",
+      "source_file": "International Monthly Government Bond Returns.ods",
+      "source_sheet": "Germany_DE_1972",
+      "licence": "CC BY 4.0",
+      "citation": "Swinkels, Laurens (2023), Historical Data: International monthly government bond returns, Erasmus University Rotterdam, dataset v6.",
+      "limitations": "Not futures; approximately 10-year constant-maturity par-bond reconstruction. Stops December 2022. DE returns refer to DEM before 1999 and EUR thereafter; currency label EUR does not turn pre-euro levels into historical EUR assets."
+    },
+    {
+      "file": "data/SWINKELS_JP_10Y_LOCAL_MONTHLY.CSV",
+      "observations": 580,
+      "first": "1974-09-30",
+      "last": "2022-12-31",
+      "sha256": "540bf71bd27205dcc20f66cd92e4dadfb1333a91eda1d8842a97749540f60378",
+      "ticker": "SWINKELS_JP_10Y_LOCAL_MONTHLY",
+      "asset_name": "Swinkels synthetic JP approximately 10-year government bond local total-return level",
+      "currency": "JPY",
+      "ter": 0.0,
+      "return_type": "Yield-derived synthetic local-currency government bond total return; no fund fees.",
+      "source": "https://doi.org/10.25397/eur.8152748.v6",
+      "source_file": "International Monthly Government Bond Returns.ods",
+      "source_sheet": "Japan_JP_1974",
+      "licence": "CC BY 4.0",
+      "citation": "Swinkels, Laurens (2023), Historical Data: International monthly government bond returns, Erasmus University Rotterdam, dataset v6.",
+      "limitations": "Not futures; approximately 10-year constant-maturity par-bond reconstruction. Stops December 2022. DE returns refer to DEM before 1999 and EUR thereafter; currency label EUR does not turn pre-euro levels into historical EUR assets."
+    },
+    {
+      "file": "data/SWINKELS_UK_10Y_LOCAL_MONTHLY.CSV",
+      "observations": 636,
+      "first": "1970-01-31",
+      "last": "2022-12-31",
+      "sha256": "311473668ed2a7b52aec6f9ae013890ba33cd6b6af36cba0a4bd47e757497a25",
+      "ticker": "SWINKELS_UK_10Y_LOCAL_MONTHLY",
+      "asset_name": "Swinkels synthetic UK approximately 10-year government bond local total-return level",
+      "currency": "GBP",
+      "ter": 0.0,
+      "return_type": "Yield-derived synthetic local-currency government bond total return; no fund fees.",
+      "source": "https://doi.org/10.25397/eur.8152748.v6",
+      "source_file": "International Monthly Government Bond Returns.ods",
+      "source_sheet": "UK_1970",
+      "licence": "CC BY 4.0",
+      "citation": "Swinkels, Laurens (2023), Historical Data: International monthly government bond returns, Erasmus University Rotterdam, dataset v6.",
+      "limitations": "Not futures; approximately 10-year constant-maturity par-bond reconstruction. Stops December 2022. DE returns refer to DEM before 1999 and EUR thereafter; currency label EUR does not turn pre-euro levels into historical EUR assets."
+    },
+    {
+      "file": "data/FRED_USD_PER_EUR_DAILY.CSV",
+      "observations": 6979,
+      "first": "1999-01-04",
+      "last": "2026-10-30",
+      "sha256": "fe13773bd3b1120960adc6b701b16e58b9552a7527098a3d2efaa6beb6319334",
+      "ticker": "FRED_USD_PER_EUR_DAILY",
+      "asset_name": "FRED spot FX, USD per EUR",
+      "currency": "USD",
+      "ter": 0.0,
+      "return_type": "Spot exchange rate, not total return and not a currency hedge.",
+      "source": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXUSEU",
+      "source_id": "DEXUSEU",
+      "inversion_applied": false,
+      "limitations": "Federal Reserve observation time differs from NAV/index valuation. Missing holidays omitted, not interpolated. DEM series is separate from EUR; no silent pre-euro splice."
+    },
+    {
+      "file": "data/FRED_USD_PER_GBP_DAILY.CSV",
+      "observations": 14000,
+      "first": "1971-01-04",
+      "last": "2026-10-30",
+      "sha256": "bf8744abb232cf8ee7323cb4ff8b54a3ca536b9fe3dbf4122a644540860f528f",
+      "ticker": "FRED_USD_PER_GBP_DAILY",
+      "asset_name": "FRED spot FX, USD per GBP",
+      "currency": "USD",
+      "ter": 0.0,
+      "return_type": "Spot exchange rate, not total return and not a currency hedge.",
+      "source": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXUSUK",
+      "source_id": "DEXUSUK",
+      "inversion_applied": false,
+      "limitations": "Federal Reserve observation time differs from NAV/index valuation. Missing holidays omitted, not interpolated. DEM series is separate from EUR; no silent pre-euro splice."
+    },
+    {
+      "file": "data/FRED_USD_PER_JPY_DAILY.CSV",
+      "observations": 13994,
+      "first": "1971-01-04",
+      "last": "2026-10-30",
+      "sha256": "b386bb011ea3db4dc168566bd112e58a3329093f830164a6e1bfe10910a77414",
+      "ticker": "FRED_USD_PER_JPY_DAILY",
+      "asset_name": "FRED spot FX, USD per JPY",
+      "currency": "USD",
+      "ter": 0.0,
+      "return_type": "Spot exchange rate, not total return and not a currency hedge.",
+      "source": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXJPUS",
+      "source_id": "DEXJPUS",
+      "inversion_applied": true,
+      "limitations": "Federal Reserve observation time differs from NAV/index valuation. Missing holidays omitted, not interpolated. DEM series is separate from EUR; no silent pre-euro splice."
+    },
+    {
+      "file": "data/SHY.CSV",
+      "observations": 6109,
+      "first": "2002-07-30",
+      "last": "2026-11-06",
+      "sha256": "4d9524d2211e8c5f35b3b090d7fa10be1a9b8986dadc12351e6c87b999dbbf92",
+      "ticker": "SHY",
+      "asset_name": "US Treasury 1-3 year ETF",
+      "currency": "USD",
+      "ter": 0.0015,
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/SHY?period1=0&period2=1794268800&interval=1d",
+      "identity_and_fee_source": "https://www.ishares.com/us/products/239452/ishares-13-year-treasury-bond-etf",
+      "return_type": "Yahoo adjusted exchange close, dividend/split-adjusted field, net of ETF expenses.",
+      "excluded_pre_listing_observations": 0,
+      "limitations": "Cash-bond ETF, not a futures return. Fund duration differs from delivery-adjusted futures duration. Dividend adjustments and close times require independent issuer cross-checks before production use. Current stated expense assumption is not a historical fee schedule; do not deduct again from adjusted prices."
+    },
+    {
+      "file": "data/TLT.CSV",
+      "observations": 6109,
+      "first": "2002-07-30",
+      "last": "2026-11-06",
+      "sha256": "a0273b725a149953e29784c6e2bf49e9527603b75ff0e12edcd2d8e64aecefe9",
+      "ticker": "TLT",
+      "asset_name": "US Treasury 20+ year ETF",
+      "currency": "USD",
+      "ter": 0.0015,
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/TLT?period1=0&period2=1794268800&interval=1d",
+      "identity_and_fee_source": "https://www.ishares.com/us/products/239454/ishares-20-year-treasury-bond-etf",
+      "return_type": "Yahoo adjusted exchange close, dividend/split-adjusted field, net of ETF expenses.",
+      "excluded_pre_listing_observations": 0,
+      "limitations": "Cash-bond ETF, not a futures return. Fund duration differs from delivery-adjusted futures duration. Dividend adjustments and close times require independent issuer cross-checks before production use. Current stated expense assumption is not a historical fee schedule; do not deduct again from adjusted prices."
+    },
+    {
+      "file": "data/EXHB.DE.CSV",
+      "observations": 4787,
+      "first": "2008-01-02",
+      "last": "2026-11-06",
+      "sha256": "1e26d3359e3cbdc55ce200a0ecaa8c1743d949b8959d03795fd2ac6e9b5440c5",
+      "ticker": "EXHB.DE",
+      "asset_name": "German government 1.5-2.5 year ETF",
+      "currency": "EUR",
+      "ter": 0.0016,
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/EXHB.DE?period1=0&period2=1794268800&interval=1d",
+      "identity_and_fee_source": "https://www.ishares.com/de/privatanleger/de/produkte/251774/",
+      "return_type": "Yahoo adjusted exchange close, dividend/split-adjusted field, net of ETF expenses.",
+      "excluded_pre_listing_observations": 0,
+      "limitations": "Cash-bond ETF, not a futures return. Fund duration differs from delivery-adjusted futures duration. Dividend adjustments and close times require independent issuer cross-checks before production use. Current stated expense assumption is not a historical fee schedule; do not deduct again from adjusted prices."
+    },
+    {
+      "file": "data/EXHD.DE.CSV",
+      "observations": 4787,
+      "first": "2008-01-02",
+      "last": "2026-11-06",
+      "sha256": "4e91fddfc6376b2c3b001f89705522ccb18d68bbca40dd953fa54abc287175a3",
+      "ticker": "EXHD.DE",
+      "asset_name": "German government 5.5-10.5 year ETF",
+      "currency": "EUR",
+      "ter": 0.0016,
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/EXHD.DE?period1=0&period2=1794268800&interval=1d",
+      "identity_and_fee_source": "https://www.ishares.com/de/privatanleger/de/produkte/251777/",
+      "return_type": "Yahoo adjusted exchange close, dividend/split-adjusted field, net of ETF expenses.",
+      "excluded_pre_listing_observations": 0,
+      "limitations": "Cash-bond ETF, not a futures return. Fund duration differs from delivery-adjusted futures duration. Dividend adjustments and close times require independent issuer cross-checks before production use. Current stated expense assumption is not a historical fee schedule; do not deduct again from adjusted prices."
+    },
+    {
+      "file": "data/EXX6.DE.CSV",
+      "observations": 4787,
+      "first": "2008-01-02",
+      "last": "2026-11-06",
+      "sha256": "4cd434489b322797c2aa0991aebb8ebd56cc4a9882f3cd22242bedaf1b658a48",
+      "ticker": "EXX6.DE",
+      "asset_name": "German government 10.5+ year ETF",
+      "currency": "EUR",
+      "ter": 0.0016,
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/EXX6.DE?period1=0&period2=1794268800&interval=1d",
+      "identity_and_fee_source": "https://www.ishares.com/ch/professionals/en/literature/fact-sheet/exx6-ishares-eb-rexx-government-germany-10-5yr-ucits-etf-de-fund-fact-sheet-en-ch-institutional.pdf",
+      "return_type": "Yahoo adjusted exchange close, dividend/split-adjusted field, net of ETF expenses.",
+      "excluded_pre_listing_observations": 0,
+      "limitations": "Cash-bond ETF, not a futures return. Fund duration differs from delivery-adjusted futures duration. Dividend adjustments and close times require independent issuer cross-checks before production use. Current stated expense assumption is not a historical fee schedule; do not deduct again from adjusted prices."
+    },
+    {
+      "file": "data/IGLT.L.CSV",
+      "observations": 4763,
+      "first": "2008-01-02",
+      "last": "2026-11-06",
+      "sha256": "fe3cf9dd3c00f9c9aa1f9c5932b805c5cbea69f0cbecd79d95d512abecd43db3",
+      "ticker": "IGLT.L",
+      "asset_name": "UK government gilt ETF",
+      "currency": "GBP",
+      "ter": 0.0007,
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/IGLT.L?period1=0&period2=1794268800&interval=1d",
+      "identity_and_fee_source": "https://www.ishares.com/uk/individual/en/products/251806/ishares-uk-gilts-ucits-etf",
+      "return_type": "Yahoo adjusted exchange close, dividend/split-adjusted field, net of ETF expenses.",
+      "excluded_pre_listing_observations": 0,
+      "limitations": "Cash-bond ETF, not a futures return. Fund duration differs from delivery-adjusted futures duration. Dividend adjustments and close times require independent issuer cross-checks before production use. Current stated expense assumption is not a historical fee schedule; do not deduct again from adjusted prices."
+    },
+    {
+      "file": "data/2561.T.CSV",
+      "observations": 1635,
+      "first": "2020-02-26",
+      "last": "2026-11-06",
+      "sha256": "2af2b29d7068bf3af14c419d09f7b1f1dc825744233f314900a4e966a8695548",
+      "ticker": "2561.T",
+      "asset_name": "Japan government bond ETF",
+      "currency": "JPY",
+      "ter": 0.00066,
+      "source": "https://query1.finance.yahoo.com/v8/finance/chart/2561.T?period1=0&period2=1794268800&interval=1d",
+      "identity_and_fee_source": "https://www.blackrock.com/jp/individual/ja/products/313081/ishares-core-japan-government-bond-etf",
+      "return_type": "Yahoo adjusted exchange close, dividend/split-adjusted field, net of ETF expenses.",
+      "excluded_pre_listing_observations": 2,
+      "limitations": "Cash-bond ETF, not a futures return. Fund duration differs from delivery-adjusted futures duration. Dividend adjustments and close times require independent issuer cross-checks before production use. Current stated expense assumption is not a historical fee schedule; do not deduct again from adjusted prices."
+    }
+  ],
+  "raw_sources": [
+    {
+      "file": "sources/ntsg_holdings_2026-11-06.json",
+      "source": "https://www.wisdomtree.com/api/fund-holdings/54028991",
+      "observations": 371,
+      "limitations": "Current fund holdings, not historical index weights. All rows are labelled EQ by source, including futures/cash. Weight means market-value weight, not notional."
+    },
+    {
+      "files": [
+        "sources/swinkels-government-returns.ods",
+        "sources/swinkels-readme.pdf"
+      ],
+      "source": "https://api.figshare.com/v2/articles/8152748",
+      "licence": "CC BY 4.0",
+      "file_ids": [
+        38737083,
+        38737080
+      ]
+    },
+    {
+      "file": "sources/FRED_IR3TIB01DEM156N_RATE.csv",
+      "source": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=IR3TIB01DEM156N",
+      "source_id": "IR3TIB01DEM156N",
+      "observations": 801,
+      "first": "1960-01-01",
+      "last": "2026-09-01",
+      "units": "Annual rate in percent; not a total-return series.",
+      "limitations": "Monthly observation labels are not release dates. Current-vintage data; release/revision lags unverified. JPY immediate rate is call-money/interbank, other selected series are three-month interbank. Do not treat all as identical or executable risk-free financing."
+    },
+    {
+      "file": "sources/FRED_IR3TIB01EZM156N_RATE.csv",
+      "source": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=IR3TIB01EZM156N",
+      "source_id": "IR3TIB01EZM156N",
+      "observations": 385,
+      "first": "1994-01-01",
+      "last": "2026-01-01",
+      "units": "Annual rate in percent; not a total-return series.",
+      "limitations": "Monthly observation labels are not release dates. Current-vintage data; release/revision lags unverified. JPY immediate rate is call-money/interbank, other selected series are three-month interbank. Do not treat all as identical or executable risk-free financing."
+    },
+    {
+      "file": "sources/FRED_IR3TIB01GBM156N_RATE.csv",
+      "source": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=IR3TIB01GBM156N",
+      "source_id": "IR3TIB01GBM156N",
+      "observations": 829,
+      "first": "1957-01-01",
+      "last": "2026-01-01",
+      "units": "Annual rate in percent; not a total-return series.",
+      "limitations": "Monthly observation labels are not release dates. Current-vintage data; release/revision lags unverified. JPY immediate rate is call-money/interbank, other selected series are three-month interbank. Do not treat all as identical or executable risk-free financing."
+    },
+    {
+      "file": "sources/FRED_IRSTCI01JPM156N_RATE.csv",
+      "source": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=IRSTCI01JPM156N",
+      "source_id": "IRSTCI01JPM156N",
+      "observations": 495,
+      "first": "1985-07-01",
+      "last": "2026-09-01",
+      "units": "Annual rate in percent; not a total-return series.",
+      "limitations": "Monthly observation labels are not release dates. Current-vintage data; release/revision lags unverified. JPY immediate rate is call-money/interbank, other selected series are three-month interbank. Do not treat all as identical or executable risk-free financing."
+    },
+    {
+      "file": "sources/FRED_IR3TIB01JPM156N_RATE.csv",
+      "source": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=IR3TIB01JPM156N",
+      "source_id": "IR3TIB01JPM156N",
+      "observations": 293,
+      "first": "2002-04-01",
+      "last": "2026-08-01",
+      "units": "Annual rate in percent; not a total-return series.",
+      "limitations": "Monthly observation labels are not release dates. Current-vintage data; release/revision lags unverified. JPY immediate rate is call-money/interbank, other selected series are three-month interbank. Do not treat all as identical or executable risk-free financing."
+    },
+    {
+      "file": "sources/FRED_ECBESTRVOLWGTTRMDMNRT_RATE.csv",
+      "source": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=ECBESTRVOLWGTTRMDMNRT",
+      "source_id": "ECBESTRVOLWGTTRMDMNRT",
+      "description": "ECB euro short-term rate, volume-weighted trimmed mean",
+      "observations": 1820,
+      "first": "2019-10-01",
+      "last": "2026-11-06",
+      "units": "Annual rate in percent; not a wealth index.",
+      "limitations": "Historical overnight reference rate, not guaranteed collateral remuneration or actual futures repo/basis. Respect publication lag and currency-specific day count; retain negative rates."
+    },
+    {
+      "file": "sources/FRED_EFFR_RATE.csv",
+      "source": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=EFFR",
+      "source_id": "EFFR",
+      "description": "Effective Federal Funds Rate",
+      "observations": 6616,
+      "first": "2000-07-03",
+      "last": "2026-11-06",
+      "units": "Annual rate in percent; not a wealth index.",
+      "limitations": "Historical overnight reference rate, not guaranteed collateral remuneration or actual futures repo/basis. Respect publication lag and currency-specific day count; retain negative rates."
+    },
+    {
+      "file": "sources/FRED_SOFR_RATE.csv",
+      "source": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=SOFR",
+      "source_id": "SOFR",
+      "description": "Secured Overnight Financing Rate",
+      "observations": 2148,
+      "first": "2018-04-03",
+      "last": "2026-11-06",
+      "units": "Annual rate in percent; not a wealth index.",
+      "limitations": "Historical overnight reference rate, not guaranteed collateral remuneration or actual futures repo/basis. Respect publication lag and currency-specific day count; retain negative rates."
+    },
+    {
+      "file": "sources/FRED_IUDSOIA_RATE.csv",
+      "source": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=IUDSOIA",
+      "first": "1997-01-02",
+      "last": "2026-11-05",
+      "observations": 7542,
+      "units": "Annual percent",
+      "limitations": "Overnight reference rate, not guaranteed collateral remuneration or futures financing; publication timing and revisions matter."
+    },
+    {
+      "file": "sources/BOJ_STRDCLUCON_RATE.csv",
+      "source": "https://www.stat-search.boj.or.jp/ssi/mtshtml/fm01_d_1_en.html",
+      "first": "1998-01-05",
+      "last": "2026-11-05",
+      "observations": 7068,
+      "units": "Annual percent",
+      "limitations": "Bank of Japan uncollateralized overnight call rate; publication date differs from observation date and historical revisions remain possible."
+    },
+    {
+      "file": "data/IGLT_L_DEDUP_20241115.CSV",
+      "source": "data/IGLT.L.CSV and official issuer distribution table",
+      "issuer": "https://www.ishares.com/uk/individual/en/products/251806/ishares-uk-gilts-ucits-etf",
+      "adjustment": "Remove duplicate 2024-11-15 Yahoo dividend of GBP 0.2025, applying post-event wealth factor 1-0.2025/9.9350004196167. Official issuer identifies one November 14 ex-date. Original snapshot unchanged.",
+      "factor": 0.9796175147008386,
+      "limitations": "Other vendor errors remain possible; adjusted market prices are not issuer NAV."
+    }
+  ],
+  "limitations": [
+    "No complete contract-level eight-futures history or official WTNTSGN NTR history was verified.",
+    "Current holdings are not point-in-time historical index constituents. Derivative market values are not futures notionals.",
+    "ETF adjusted closes include reported distribution adjustments and existing fund expenses; they remain market-price proxies, not official NAV histories.",
+    "Cash-bond ETFs and yield-derived bond returns do not contain the actual futures basis, delivery options or roll P&L.",
+    "FRED monthly interest observations are rates, not total-return levels. Negative rates are retained; no cash wealth index was inferred.",
+    "Download access is not a redistribution licence. Swinkels data is CC BY 4.0; consult other provider terms before publishing raw snapshots."
+  ],
+  "futures_snapshot": [
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "10YR MINI JGB FUT Dec26",
+      "ticker": "BJZ6",
+      "weight": 0.0009041897202298197,
+      "shares": 54,
+      "market_value_base": 90164.6,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "EURO-BUXL 30Y BND Dec26",
+      "ticker": "UBZ6",
+      "weight": 0.0005948765420236875,
+      "shares": 13,
+      "market_value_base": 59320.3,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "EURO-BUND FUTURE Dec26",
+      "ticker": "RXZ6",
+      "weight": 0.00039624915165062304,
+      "shares": 29,
+      "market_value_base": 39513.44,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "LONG GILT FUTURE Dec26",
+      "ticker": "G Z6",
+      "weight": 6.082993037342436e-05,
+      "shares": 19,
+      "market_value_base": 6065.88,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "EURO-SCHATZ FUT Dec26",
+      "ticker": "DUZ6",
+      "weight": 6.706667595656152e-06,
+      "shares": 12,
+      "market_value_base": 668.78,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "US 2YR NOTE (CBT) Dec26",
+      "ticker": "TUZ6",
+      "weight": -0.0005642167881829934,
+      "shares": 75,
+      "market_value_base": -56262.95,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "US LONG BOND(CBT) Dec26",
+      "ticker": "USZ6",
+      "weight": -0.0008696686033733246,
+      "shares": 152,
+      "market_value_base": -86722.2,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "US 10YR NOTE (CBT)Dec26",
+      "ticker": "TYZ6",
+      "weight": -0.0014787578293637806,
+      "shares": 155,
+      "market_value_base": -147459.77,
+      "asset_group": "EQ"
+    }
+  ],
+  "coverage_probes": [
+    {
+      "symbols": [
+        "FGBL=F",
+        "FGBS=F",
+        "FGBX=F",
+        "WTNTSGN",
+        "^WTNTSGN"
+      ],
+      "result": "Yahoo chart max/monthly returned HTTP 404 on 2026-11-09. This does not prove absence from all other free sources or identifiers."
+    },
+    {
+      "symbols": [
+        "ZT=F",
+        "ZN=F",
+        "ZB=F"
+      ],
+      "result": "Yahoo continuous quotes available; not downloaded as approved returns because actual quarterly rolls/contract accounting were not verified."
+    },
+    {
+      "source": "https://www.wisdomtree.com/us/indexes/WTNTSG",
+      "result": "Public page reports index facts and current constituents, but does not independently establish that any recovered history equals the required WTNTSGN NTR series. No substitute saved."
+    },
+    {
+      "source": "FRED DEXGEUS",
+      "result": "Daily DEM/USD identifier returned 404; no verified pre-euro DEM month-end FX saved."
+    },
+    {
+      "source": "Bank of England IUDERB6 CSV",
+      "result": "Direct SONIA download returned HTTP 403. No current SONIA daily history saved."
+    },
+    {
+      "source": "FRED IRSTCI01JPD156N",
+      "result": "Daily Japanese call-money identifier returned 404; monthly series was downloaded instead."
+    }
+  ]
+}

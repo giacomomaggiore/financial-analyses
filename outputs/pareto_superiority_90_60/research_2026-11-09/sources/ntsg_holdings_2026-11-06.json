@@ -1,0 +1,3344 @@
+{
+  "source": "/api/fund-holdings/54028991",
+  "rows": [
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "US Treasury Bill (C04JZH3)",
+      "ticker": null,
+      "weight": 0.05651868171260358,
+      "shares": 5645000,
+      "market_value_base": 5635968,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Apple Inc",
+      "ticker": "AAPL UQ",
+      "weight": 0.047847290038465225,
+      "shares": 13936,
+      "market_value_base": 4771268.32,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Nvidia Corp",
+      "ticker": "NVDA UQ",
+      "weight": 0.04271702126160419,
+      "shares": 22823,
+      "market_value_base": 4259684.72,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Microsoft Corp",
+      "ticker": "MSFT US",
+      "weight": 0.038657570272951525,
+      "shares": 7265,
+      "market_value_base": 3854881.65,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Google Inc",
+      "ticker": "GOOGL UQ",
+      "weight": 0.0308687118939014,
+      "shares": 10809,
+      "market_value_base": 3078187.02,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "CASH W-O",
+      "ticker": null,
+      "weight": 0.029911935232966324,
+      "shares": 2982778.52,
+      "market_value_base": 2982778.52,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Amazon.com Inc",
+      "ticker": "AMZN UQ",
+      "weight": 0.0270328784995479,
+      "shares": 10396,
+      "market_value_base": 2695682.8,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Broadcom Inc",
+      "ticker": "AVGO US",
+      "weight": 0.014360724844158639,
+      "shares": 4876,
+      "market_value_base": 1432032.44,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Eli Lilly & Co",
+      "ticker": "LLY UN",
+      "weight": 0.01321158762306952,
+      "shares": 973,
+      "market_value_base": 1317442,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "GERMAN 0% 09/12/26",
+      "ticker": null,
+      "weight": 0.013165507989106123,
+      "shares": 1180000,
+      "market_value_base": 1312847,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Meta Platforms, Inc. Cl A",
+      "ticker": "FB UQ",
+      "weight": 0.013045097242441208,
+      "shares": 2132,
+      "market_value_base": 1300839.8,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Berkshire Hathaway Inc",
+      "ticker": "BRK/B UN",
+      "weight": 0.011696187108326655,
+      "shares": 2043,
+      "market_value_base": 1166328.27,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Tesla Inc",
+      "ticker": "TSLA UQ",
+      "weight": 0.011017602774571025,
+      "shares": 3067,
+      "market_value_base": 1098660.74,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "JPMorgan Chase & Co",
+      "ticker": "JPM UN",
+      "weight": 0.009774536907836615,
+      "shares": 2914,
+      "market_value_base": 974703.86,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Walmart Inc",
+      "ticker": "WMT US",
+      "weight": 0.009495943351896588,
+      "shares": 7544,
+      "market_value_base": 946922.88,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Advanced Micro Devices",
+      "ticker": "AMD US",
+      "weight": 0.007803817362551077,
+      "shares": 1733,
+      "market_value_base": 778186.32,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Micron Technology Inc",
+      "ticker": "MU UQ",
+      "weight": 0.007777480068912177,
+      "shares": 1124,
+      "market_value_base": 775560,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Visa Inc",
+      "ticker": "V UN",
+      "weight": 0.006785716480674992,
+      "shares": 1601,
+      "market_value_base": 676662.65,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Mastercard Inc",
+      "ticker": "MA UN",
+      "weight": 0.006545413947314171,
+      "shares": 1000,
+      "market_value_base": 652700,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Exxonmobil Holdings Corp",
+      "ticker": "XOM US",
+      "weight": 0.0062243661565990925,
+      "shares": 3742,
+      "market_value_base": 620685.54,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Johnson & Johnson",
+      "ticker": "JNJ UN",
+      "weight": 0.00572557492748515,
+      "shares": 2067,
+      "market_value_base": 570946.74,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "AbbVie Inc",
+      "ticker": "ABBV UN",
+      "weight": 0.005632301926337907,
+      "shares": 1928,
+      "market_value_base": 561645.68,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "ASML Holding NV",
+      "ticker": "ASMLO MT",
+      "weight": 0.005308641485560481,
+      "shares": 370,
+      "market_value_base": 529370.69,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Costco Wholesale Corp",
+      "ticker": "COST UQ",
+      "weight": 0.004881179223333125,
+      "shares": 462,
+      "market_value_base": 486744.72,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Royal Bank of Canada",
+      "ticker": "RY CT",
+      "weight": 0.004093471396885919,
+      "shares": 2026,
+      "market_value_base": 408195.54,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Merck & Co Inc/NJ",
+      "ticker": "MRK UN",
+      "weight": 0.004043515858999378,
+      "shares": 2748,
+      "market_value_base": 403214.04,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Toyota Motor Corp",
+      "ticker": "7203 JT",
+      "weight": 0.003999428128777908,
+      "shares": 18908,
+      "market_value_base": 398817.67,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Palantir Technologies Inc-A",
+      "ticker": "PLTR US",
+      "weight": 0.003911445510850988,
+      "shares": 2432,
+      "market_value_base": 390044.16,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "UnitedHealth Group Inc",
+      "ticker": "UNH UN",
+      "weight": 0.0038419463918010284,
+      "shares": 972,
+      "market_value_base": 383113.8,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Cisco Systems Inc",
+      "ticker": "CSCO UQ",
+      "weight": 0.003815412745771922,
+      "shares": 4054,
+      "market_value_base": 380467.9,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Roche Holding Ag",
+      "ticker": "ROP SW",
+      "weight": 0.003798248257614266,
+      "shares": 796,
+      "market_value_base": 378756.28,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "General Electric Co",
+      "ticker": "GE US",
+      "weight": 0.0036953319272805406,
+      "shares": 1140,
+      "market_value_base": 368493.6,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Home Depot Inc",
+      "ticker": "HD UN",
+      "weight": 0.00358216556093666,
+      "shares": 1040,
+      "market_value_base": 357208.8,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Shell Plc-New",
+      "ticker": "SHEL LN",
+      "weight": 0.0035791475705468268,
+      "shares": 7176,
+      "market_value_base": 356907.85,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Bank of America Corp",
+      "ticker": "BAC UN",
+      "weight": 0.0035365604619632856,
+      "shares": 7136,
+      "market_value_base": 352661.12,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Novartis AG",
+      "ticker": "NOVN SW",
+      "weight": 0.0034443349075554274,
+      "shares": 2117,
+      "market_value_base": 343464.51,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Coca-Cola Co/The",
+      "ticker": "KO UN",
+      "weight": 0.003426973365032727,
+      "shares": 3572,
+      "market_value_base": 341733.24,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "L'Oreal SA",
+      "ticker": "OR FP",
+      "weight": 0.0033886858523277073,
+      "shares": 674,
+      "market_value_base": 337915.26,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Procter & Gamble Co/The",
+      "ticker": "PG US",
+      "weight": 0.0033720685034146743,
+      "shares": 2033,
+      "market_value_base": 336258.2,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Oracle Corp",
+      "ticker": "ORCL UN",
+      "weight": 0.0033298276689901654,
+      "shares": 2860,
+      "market_value_base": 332046,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "ASTRAZENECA PLC USD0.25",
+      "ticker": "AZN",
+      "weight": 0.0032998624691099295,
+      "shares": 1768,
+      "market_value_base": 329057.91,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Sap AG",
+      "ticker": "SAP GY",
+      "weight": 0.003210815857893888,
+      "shares": 1363,
+      "market_value_base": 320178.3,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Caterpillar Inc",
+      "ticker": "CAT UN",
+      "weight": 0.0032043783475072802,
+      "shares": 572,
+      "market_value_base": 319536.36,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Amgen Inc",
+      "ticker": "AMGN UQ",
+      "weight": 0.003116602812157367,
+      "shares": 675,
+      "market_value_base": 310783.5,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "EURO INCOME A/C",
+      "ticker": null,
+      "weight": 0.0031156751022688024,
+      "shares": 278740.58,
+      "market_value_base": 310690.99,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Marathon Petroleum Corp",
+      "ticker": "MPC UN",
+      "weight": 0.0031099458844930403,
+      "shares": 832,
+      "market_value_base": 310119.68,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "HSBC Holdings PLC",
+      "ticker": "HSBA LN",
+      "weight": 0.0030977942989307322,
+      "shares": 17722,
+      "market_value_base": 308907.94,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "NetFlix Inc",
+      "ticker": "NFLX UQ",
+      "weight": 0.003012841705248,
+      "shares": 4738,
+      "market_value_base": 300436.58,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Mitsubishi UFJ Financial Group",
+      "ticker": "8306 JT",
+      "weight": 0.0029984602464739178,
+      "shares": 14677,
+      "market_value_base": 299002.48,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Applied Materials Inc",
+      "ticker": "AMAT UQ",
+      "weight": 0.002996209815427623,
+      "shares": 898,
+      "market_value_base": 298778.07,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Crowdstrike Holdings Inc - A",
+      "ticker": "CRWD US",
+      "weight": 0.0029668625539684586,
+      "shares": 1364,
+      "market_value_base": 295851.6,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "LAM RESEARCH CORP",
+      "ticker": "US5128073062",
+      "weight": 0.002932669961335825,
+      "shares": 1459,
+      "market_value_base": 292441.96,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Nestle SA",
+      "ticker": "NESN SW",
+      "weight": 0.002932502791042425,
+      "shares": 2794,
+      "market_value_base": 292425.29,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Linde Plc",
+      "ticker": "LIN US",
+      "weight": 0.0029297095328826507,
+      "shares": 567,
+      "market_value_base": 292146.75,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Thermo Fisher Scientific Inc",
+      "ticker": "TMO UN",
+      "weight": 0.002898355425645738,
+      "shares": 416,
+      "market_value_base": 289020.16,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "GE Vernova Inc",
+      "ticker": "GEV US",
+      "weight": 0.002825709854810718,
+      "shares": 364,
+      "market_value_base": 281776.04,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Morgan Stanley",
+      "ticker": "MS UN",
+      "weight": 0.0028202541063751473,
+      "shares": 1550,
+      "market_value_base": 281232,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "UniCredit SpA",
+      "ticker": "UCG IM",
+      "weight": 0.0028191379663838256,
+      "shares": 3284,
+      "market_value_base": 281120.7,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Shopify Inc - Class A",
+      "ticker": "SHOP CN",
+      "weight": 0.0027954804115452947,
+      "shares": 1868,
+      "market_value_base": 278761.6,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Texas Instruments Inc",
+      "ticker": "TXN UQ",
+      "weight": 0.002748047771224044,
+      "shares": 988,
+      "market_value_base": 274031.68,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Goldman Sachs Group Inc",
+      "ticker": "GS US",
+      "weight": 0.002708979461935697,
+      "shares": 312,
+      "market_value_base": 270135.84,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Phillips 66",
+      "ticker": "PSX UN",
+      "weight": 0.0026908324095700465,
+      "shares": 1092,
+      "market_value_base": 268326.24,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Industria de Diseno Textil",
+      "ticker": "ITX SM",
+      "weight": 0.0026766787917717316,
+      "shares": 4056,
+      "market_value_base": 266914.86,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Arista Networks Inc",
+      "ticker": "ANET US",
+      "weight": 0.0026702842021323193,
+      "shares": 1559,
+      "market_value_base": 266277.2,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Intel Corp",
+      "ticker": "INTC UQ",
+      "weight": 0.0026667322094555326,
+      "shares": 4725,
+      "market_value_base": 265923,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Wells Fargo & Co",
+      "ticker": "WFC UN",
+      "weight": 0.0026633543065383986,
+      "shares": 3164,
+      "market_value_base": 265586.16,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Palo Alto Networks Inc",
+      "ticker": "PANW US",
+      "weight": 0.002618515362958888,
+      "shares": 832,
+      "market_value_base": 261114.88,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Walt Disney Co/The",
+      "ticker": "DIS UN",
+      "weight": 0.002617894817202706,
+      "shares": 2236,
+      "market_value_base": 261053,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Gilead Sciences Inc",
+      "ticker": "GILD UQ",
+      "weight": 0.002610828939054587,
+      "shares": 1560,
+      "market_value_base": 260348.4,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Allianz SE",
+      "ticker": "ALV GY",
+      "weight": 0.0025816345075457166,
+      "shares": 512,
+      "market_value_base": 257437.17,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "LVMH Moet Hennessy Louis Vuitton SE",
+      "ticker": "MC FP",
+      "weight": 0.002576848142258581,
+      "shares": 564,
+      "market_value_base": 256959.88,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Anheuser-Busch InBev NV",
+      "ticker": "ABI BB",
+      "weight": 0.002551991213269447,
+      "shares": 3016,
+      "market_value_base": 254481.18,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "BP PLC",
+      "ticker": "BP/ LN",
+      "weight": 0.002541182605853032,
+      "shares": 33904,
+      "market_value_base": 253403.36,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "American Express Co",
+      "ticker": "AXP UN",
+      "weight": 0.002501128623610982,
+      "shares": 777,
+      "market_value_base": 249409.23,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Analog Devices Inc",
+      "ticker": "ADI US",
+      "weight": 0.0024645991567449443,
+      "shares": 676,
+      "market_value_base": 245766.56,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Siemens Ag-Reg",
+      "ticker": "SIE GR",
+      "weight": 0.0024636897984842694,
+      "shares": 836,
+      "market_value_base": 245675.88,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Repsol SA",
+      "ticker": "REP SM",
+      "weight": 0.002452453888956172,
+      "shares": 7338,
+      "market_value_base": 244555.45,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Deere & Co",
+      "ticker": "DE UN",
+      "weight": 0.0024517032772908487,
+      "shares": 364,
+      "market_value_base": 244480.6,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "DBS Group Holdings Ltd",
+      "ticker": "DBS SP",
+      "weight": 0.002441103557529593,
+      "shares": 4477,
+      "market_value_base": 243423.61,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Sony Group Corp",
+      "ticker": "6758 JP",
+      "weight": 0.002415753842204667,
+      "shares": 9204,
+      "market_value_base": 240895.77,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Citigroup Inc",
+      "ticker": "C UN",
+      "weight": 0.0024104005820953446,
+      "shares": 2019,
+      "market_value_base": 240361.95,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Agnico-Eagle Mines Ltd",
+      "ticker": "AEM CT",
+      "weight": 0.002408325343912018,
+      "shares": 1251,
+      "market_value_base": 240155.01,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Amphenol Corp",
+      "ticker": "APH UN",
+      "weight": 0.0023846378047197225,
+      "shares": 3188,
+      "market_value_base": 237792.92,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "BHP Group Ltd",
+      "ticker": "BHP AU",
+      "weight": 0.0023741411749774316,
+      "shares": 5978,
+      "market_value_base": 236746.21,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Marsh & Mclennan Cos",
+      "ticker": "MMC US",
+      "weight": 0.0023641291084371234,
+      "shares": 1151,
+      "market_value_base": 235747.82,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "ABB Ltd-Reg",
+      "ticker": "ABBN SW",
+      "weight": 0.0023477106189672887,
+      "shares": 2867,
+      "market_value_base": 234110.59,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "International Business Machines Corp",
+      "ticker": "IBM UN",
+      "weight": 0.00229966956702633,
+      "shares": 936,
+      "market_value_base": 229320,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Lloyds Banking Group PLC",
+      "ticker": "LLOY LN",
+      "weight": 0.0022953397862298043,
+      "shares": 178672,
+      "market_value_base": 228888.24,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Qualcomm Inc",
+      "ticker": "QCOM UQ",
+      "weight": 0.002242652362840693,
+      "shares": 1352,
+      "market_value_base": 223634.32,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Abbott Laboratories",
+      "ticker": "ABT UN",
+      "weight": 0.0022367723207570287,
+      "shares": 2029,
+      "market_value_base": 223047.97,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Freeport-McMoRan Inc",
+      "ticker": "FCX UN",
+      "weight": 0.002230961072207421,
+      "shares": 3744,
+      "market_value_base": 222468.48,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Salesforce Inc",
+      "ticker": "CRM UN",
+      "weight": 0.0022282285850121334,
+      "shares": 1040,
+      "market_value_base": 222196,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Pfizer Inc",
+      "ticker": "PFE UN",
+      "weight": 0.0022087002467308975,
+      "shares": 7494,
+      "market_value_base": 220248.66,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "McKesson Corp",
+      "ticker": "MCK UN",
+      "weight": 0.0022021339741027032,
+      "shares": 207,
+      "market_value_base": 219593.88,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Commonwealth Bank of Australia",
+      "ticker": "CBA AU",
+      "weight": 0.002170580806858353,
+      "shares": 1880,
+      "market_value_base": 216447.44,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "KLA Corp",
+      "ticker": "KLAC US",
+      "weight": 0.0021665390363093634,
+      "shares": 1560,
+      "market_value_base": 216044.4,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Uber Technologies Inc",
+      "ticker": "UBER US",
+      "weight": 0.002157050743279808,
+      "shares": 3136,
+      "market_value_base": 215098.24,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Mizuho Financial Group Inc",
+      "ticker": "8411 JT",
+      "weight": 0.0021399497337038693,
+      "shares": 4691,
+      "market_value_base": 213392.95,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Schneider Electric SA",
+      "ticker": "SU FP",
+      "weight": 0.002126407535988851,
+      "shares": 832,
+      "market_value_base": 212042.54,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Banco Santander Sa",
+      "ticker": "SAN SM",
+      "weight": 0.00210742322820653,
+      "shares": 17627,
+      "market_value_base": 210149.45,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Delta Air Lines Inc",
+      "ticker": "DAL UN",
+      "weight": 0.0020917085186521575,
+      "shares": 2392,
+      "market_value_base": 208582.4,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "PepsiCo Inc/NC",
+      "ticker": "PEP UQ",
+      "weight": 0.0020637161689111205,
+      "shares": 1456,
+      "market_value_base": 205791.04,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Vertex Pharmaceuticals Inc",
+      "ticker": "VRTX UQ",
+      "weight": 0.002062861765251995,
+      "shares": 376,
+      "market_value_base": 205705.84,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Macquarie Group Ltd",
+      "ticker": "MQG AU",
+      "weight": 0.0020600392247132927,
+      "shares": 1201,
+      "market_value_base": 205424.38,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Charles Schwab Corp/The",
+      "ticker": "SCHW UN",
+      "weight": 0.002051487767245187,
+      "shares": 2236,
+      "market_value_base": 204571.64,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Takeda Pharmaceutical Co Ltd",
+      "ticker": "4502 JT",
+      "weight": 0.002049768530586496,
+      "shares": 4931,
+      "market_value_base": 204400.2,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Travelers Cos Inc/The",
+      "ticker": "TRV US",
+      "weight": 0.002044985073480829,
+      "shares": 516,
+      "market_value_base": 203923.2,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Bank of Montreal",
+      "ticker": "BMO CT",
+      "weight": 0.0020427235111192565,
+      "shares": 1190,
+      "market_value_base": 203697.68,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Verizon Communications Inc",
+      "ticker": "VZ UN",
+      "weight": 0.0020274863450184945,
+      "shares": 4425,
+      "market_value_base": 202178.25,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "T-Mobile US Inc",
+      "ticker": "TMUS UN",
+      "weight": 0.002021090251147288,
+      "shares": 1244,
+      "market_value_base": 201540.44,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Sumitomo Corp",
+      "ticker": "8053 JT",
+      "weight": 0.0020130257636520356,
+      "shares": 19892,
+      "market_value_base": 200736.26,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Capital One Financial Corp",
+      "ticker": "COF UN",
+      "weight": 0.0020122487777892535,
+      "shares": 994,
+      "market_value_base": 200658.78,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "TotalEnergies",
+      "ticker": "TTE FP",
+      "weight": 0.0020078668502905277,
+      "shares": 2253,
+      "market_value_base": 200221.82,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Anglo American Plc",
+      "ticker": "AAL LN",
+      "weight": 0.001988005675654287,
+      "shares": 4009,
+      "market_value_base": 198241.29,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Atmos Energy Corp",
+      "ticker": "ATO UN",
+      "weight": 0.00198722738612395,
+      "shares": 1144,
+      "market_value_base": 198163.68,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Sumitomo Mitsui Financial Group",
+      "ticker": "8316 JT",
+      "weight": 0.0019789044716064484,
+      "shares": 10382,
+      "market_value_base": 197333.73,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Quanta Services Inc",
+      "ticker": "PWR US",
+      "weight": 0.001974430585404035,
+      "shares": 364,
+      "market_value_base": 196887.6,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Veolia Environment",
+      "ticker": "VIE FP",
+      "weight": 0.001963427831804044,
+      "shares": 5200,
+      "market_value_base": 195790.42,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Tokio Marine Holdings Inc",
+      "ticker": "8766 JT",
+      "weight": 0.0019486813461145611,
+      "shares": 53970,
+      "market_value_base": 194319.92,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Wharf Real Estate Investment",
+      "ticker": "1997 HK",
+      "weight": 0.0019456467088928714,
+      "shares": 46752,
+      "market_value_base": 194017.31,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "UBS Group AG",
+      "ticker": "UBSG SW",
+      "weight": 0.0019408588393739412,
+      "shares": 4015,
+      "market_value_base": 193539.87,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Danaher Corp",
+      "ticker": "DHR UN",
+      "weight": 0.0019349384838781914,
+      "shares": 838,
+      "market_value_base": 192949.5,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "ING Groep NV",
+      "ticker": "INGA NA",
+      "weight": 0.0019181135509775545,
+      "shares": 5975,
+      "market_value_base": 191271.74,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Parker Hannifin Corp",
+      "ticker": "PH UN",
+      "weight": 0.0019143888724907896,
+      "shares": 208,
+      "market_value_base": 190900.32,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Nintendo Co Ltd",
+      "ticker": "7974 JT",
+      "weight": 0.0018997897012350221,
+      "shares": 3666,
+      "market_value_base": 189444.51,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "BASF SE",
+      "ticker": "BAS GY",
+      "weight": 0.0018966219896406026,
+      "shares": 3126,
+      "market_value_base": 189128.63,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "McDonalds Corp",
+      "ticker": "MCD UN",
+      "weight": 0.0018911867990395535,
+      "shares": 682,
+      "market_value_base": 188586.64,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Intuitive Surgical Inc",
+      "ticker": "ISRG UQ",
+      "weight": 0.0018889621404979994,
+      "shares": 416,
+      "market_value_base": 188364.8,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Rolls-Royce Holdings PLC",
+      "ticker": "RR/ LN",
+      "weight": 0.0018870479553987757,
+      "shares": 11167,
+      "market_value_base": 188173.92,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Canadian Pacific Kansas City",
+      "ticker": "CP CN",
+      "weight": 0.0018824503210607567,
+      "shares": 2037,
+      "market_value_base": 187715.45,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Regeneron Pharmaceuticals Inc",
+      "ticker": "REGN UQ",
+      "weight": 0.0018772857919005501,
+      "shares": 207,
+      "market_value_base": 187200.45,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Hong Kong Exchanges and Clearing Ltd",
+      "ticker": "388 HK",
+      "weight": 0.001873988315243348,
+      "shares": 3800,
+      "market_value_base": 186871.63,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Waste Connections Inc",
+      "ticker": "WCN US",
+      "weight": 0.0018732816271464165,
+      "shares": 988,
+      "market_value_base": 186801.16,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Nextera Energy",
+      "ticker": "NEE UN",
+      "weight": 0.001859003860084017,
+      "shares": 2132,
+      "market_value_base": 185377.4,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Medtronic Inc",
+      "ticker": "MDT UN",
+      "weight": 0.0018579869993911142,
+      "shares": 1820,
+      "market_value_base": 185276,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Cintas Corp",
+      "ticker": "CTAS UQ",
+      "weight": 0.0018552545121958265,
+      "shares": 832,
+      "market_value_base": 185003.52,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Bristol-Myers Squibb Co",
+      "ticker": "BMY UN",
+      "weight": 0.001844533150223477,
+      "shares": 2960,
+      "market_value_base": 183934.4,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Novo Nordisk A/S-B",
+      "ticker": "NOVOB DC",
+      "weight": 0.0018267648634236158,
+      "shares": 4534,
+      "market_value_base": 182162.57,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Union Pacific Corp",
+      "ticker": "UNP UN",
+      "weight": 0.001818616239230006,
+      "shares": 625,
+      "market_value_base": 181350,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Nomura Holdings Inc",
+      "ticker": "8604 JP",
+      "weight": 0.0018153274871172101,
+      "shares": 19757,
+      "market_value_base": 181022.05,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "BLACKROCK INC",
+      "ticker": "US09290D1019",
+      "weight": 0.0018087596099751022,
+      "shares": 153,
+      "market_value_base": 180367.11,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Extra Space Storage Inc",
+      "ticker": "EXR UN",
+      "weight": 0.0018071146823670464,
+      "shares": 1132,
+      "market_value_base": 180203.08,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "American Water Works Co Inc",
+      "ticker": "AWK UN",
+      "weight": 0.0018025394109417016,
+      "shares": 1196,
+      "market_value_base": 179746.84,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Canadian Imperial Bank of Comm",
+      "ticker": "CM CT",
+      "weight": 0.0018022610277776483,
+      "shares": 1558,
+      "market_value_base": 179719.08,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Unilever Plc",
+      "ticker": "ULVR LN",
+      "weight": 0.0017934085233864566,
+      "shares": 2715,
+      "market_value_base": 178836.32,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "GSK Plc",
+      "ticker": "GSK LN",
+      "weight": 0.0017903736856005278,
+      "shares": 7070,
+      "market_value_base": 178533.69,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Eaton Corp PLC",
+      "ticker": "ETN US",
+      "weight": 0.001781957107583305,
+      "shares": 520,
+      "market_value_base": 177694.4,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "DNB Bank ASA",
+      "ticker": "DNB NO",
+      "weight": 0.0017776567094478267,
+      "shares": 5200,
+      "market_value_base": 177265.57,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Sandvik AB",
+      "ticker": "SAND SS",
+      "weight": 0.001772683217725488,
+      "shares": 4887,
+      "market_value_base": 176769.62,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "American Tower Corp",
+      "ticker": "AMT",
+      "weight": 0.0017720596635057177,
+      "shares": 936,
+      "market_value_base": 176707.44,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Atlas Copco Ab-A Shs",
+      "ticker": "ATCOA SS",
+      "weight": 0.0017586117309831382,
+      "shares": 9412,
+      "market_value_base": 175366.43,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Edwards Lifesciences Corp",
+      "ticker": "EW UN",
+      "weight": 0.001757667173698478,
+      "shares": 1716,
+      "market_value_base": 175272.24,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "CME Group Inc",
+      "ticker": "CME UQ",
+      "weight": 0.0017546270209602096,
+      "shares": 572,
+      "market_value_base": 174969.08,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Loblaw Cos Ltd",
+      "ticker": "L CT",
+      "weight": 0.0017525387461013332,
+      "shares": 3549,
+      "market_value_base": 174760.84,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "TJX Cos Inc",
+      "ticker": "TJX UN",
+      "weight": 0.0017475803969790563,
+      "shares": 1288,
+      "market_value_base": 174266.4,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "American IntL Group Inc",
+      "ticker": "AIGZ IX",
+      "weight": 0.0017433946213062988,
+      "shares": 2236,
+      "market_value_base": 173849,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Automatic Data Processing Inc",
+      "ticker": "ADP UQ",
+      "weight": 0.0017400572323654898,
+      "shares": 572,
+      "market_value_base": 173516.2,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Snowflake Inc-Class A",
+      "ticker": "SNOW US",
+      "weight": 0.0017291144474730288,
+      "shares": 625,
+      "market_value_base": 172425,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Barrick Mining Corp",
+      "ticker": "ABX.CN",
+      "weight": 0.0017272995416722245,
+      "shares": 4247,
+      "market_value_base": 172244.02,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Realty Income Corp",
+      "ticker": "O UN",
+      "weight": 0.001724095126822026,
+      "shares": 2912,
+      "market_value_base": 171924.48,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Power Corporation of Canada",
+      "ticker": "POW CT",
+      "weight": 0.0017162410312137272,
+      "shares": 2642,
+      "market_value_base": 171141.28,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Ventas Inc",
+      "ticker": "VTR UN",
+      "weight": 0.0017150373449319803,
+      "shares": 1927,
+      "market_value_base": 171021.25,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Deutsche Telekom AG",
+      "ticker": "DTE GY",
+      "weight": 0.0017006127648464637,
+      "shares": 5872,
+      "market_value_base": 169582.85,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Sandisk Corp-W/I",
+      "ticker": "SNDK US",
+      "weight": 0.0016999542121669477,
+      "shares": 203,
+      "market_value_base": 169517.18,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Intesa Sanpaolo SpA",
+      "ticker": "ISP IM",
+      "weight": 0.001694837216731439,
+      "shares": 24547,
+      "market_value_base": 169006.92,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "priceline.com Inc",
+      "ticker": "PCLN UQ",
+      "weight": 0.0016917418085452625,
+      "shares": 1050,
+      "market_value_base": 168698.25,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "S&P Global Inc",
+      "ticker": "SPGI US",
+      "weight": 0.0016841399224677973,
+      "shares": 359,
+      "market_value_base": 167940.2,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Emerson Electric Co",
+      "ticker": "EMR UN",
+      "weight": 0.0016769226183190582,
+      "shares": 1030,
+      "market_value_base": 167220.5,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Equity Residential",
+      "ticker": "EQR US",
+      "weight": 0.0016732469777887855,
+      "shares": 2547,
+      "market_value_base": 166853.97,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "BPER Banco Spa",
+      "ticker": "BPE IM",
+      "weight": 0.0016672878131127444,
+      "shares": 11554,
+      "market_value_base": 166259.73,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Progressive Corp/The",
+      "ticker": "PGR UN",
+      "weight": 0.001662843610417737,
+      "shares": 728,
+      "market_value_base": 165816.56,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Church & Dwight Co Inc",
+      "ticker": "CHD UN",
+      "weight": 0.0016533476959470913,
+      "shares": 1508,
+      "market_value_base": 164869.64,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Starbucks Corp",
+      "ticker": "SBUX UQ",
+      "weight": 0.001649035163675139,
+      "shares": 1560,
+      "market_value_base": 164439.6,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "WR Berkley Corp",
+      "ticker": "WRB UN",
+      "weight": 0.0016438863788077124,
+      "shares": 2179,
+      "market_value_base": 163926.17,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "3M Co",
+      "ticker": "MMM UN",
+      "weight": 0.001641343525100618,
+      "shares": 884,
+      "market_value_base": 163672.6,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Reckitt Benckiser Group Plc",
+      "ticker": "RKT LN",
+      "weight": 0.0016402815374538882,
+      "shares": 2190,
+      "market_value_base": 163566.7,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Accenture Plc-Cl A",
+      "ticker": "ACN US",
+      "weight": 0.001630105910776487,
+      "shares": 624,
+      "market_value_base": 162552,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Mitsubishi Corp",
+      "ticker": "8058 JT",
+      "weight": 0.0016242880436069846,
+      "shares": 5170,
+      "market_value_base": 161971.85,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Entergy Corp",
+      "ticker": "ETR US",
+      "weight": 0.00162080073289735,
+      "shares": 1462,
+      "market_value_base": 161624.1,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Australia & New Zealand Banking Group Ltd",
+      "ticker": "ANZ AU",
+      "weight": 0.0016184931410428737,
+      "shares": 5821,
+      "market_value_base": 161393.99,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "STERLING POUND",
+      "ticker": null,
+      "weight": 0.0016156812304088507,
+      "shares": 120584.98,
+      "market_value_base": 161113.59,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Swiss Life Holding Ag-Reg",
+      "ticker": "SLHN SW",
+      "weight": 0.0016148021573482998,
+      "shares": 136,
+      "market_value_base": 161025.93,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "BNP Paribas",
+      "ticker": "BNP FP",
+      "weight": 0.0016091665027901391,
+      "shares": 1566,
+      "market_value_base": 160463.95,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Sanofi SA",
+      "ticker": "SAN FP",
+      "weight": 0.0016062095842111516,
+      "shares": 1716,
+      "market_value_base": 160169.09,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Fedex Corp",
+      "ticker": "FDX US",
+      "weight": 0.001603758388361386,
+      "shares": 519,
+      "market_value_base": 159924.66,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Fast Retailing Co Ltd",
+      "ticker": "9983 JT",
+      "weight": 0.0016003947255052375,
+      "shares": 324,
+      "market_value_base": 159589.24,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "CaixaBank",
+      "ticker": "CABK SM",
+      "weight": 0.0015924918927868058,
+      "shares": 12120,
+      "market_value_base": 158801.18,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Bridgestone Corp",
+      "ticker": "5108 JT",
+      "weight": 0.0015924744436979926,
+      "shares": 6122,
+      "market_value_base": 158799.44,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Weyerhaeuser Co",
+      "ticker": "WY UN",
+      "weight": 0.0015844613006479836,
+      "shares": 7531,
+      "market_value_base": 158000.38,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Equinix Inc",
+      "ticker": "EQIX UQ",
+      "weight": 0.001584284603553221,
+      "shares": 156,
+      "market_value_base": 157982.76,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Hermes International",
+      "ticker": "RMS FP",
+      "weight": 0.0015838783606866578,
+      "shares": 104,
+      "market_value_base": 157942.25,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Wesfarmers Ltd",
+      "ticker": "WES AU",
+      "weight": 0.0015802406267975998,
+      "shares": 2819,
+      "market_value_base": 157579.5,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Hansen Natural Corp",
+      "ticker": "HANS",
+      "weight": 0.0015726201885280055,
+      "shares": 3430,
+      "market_value_base": 156819.6,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Hitachi Ltd",
+      "ticker": "6501 JT",
+      "weight": 0.0015685905521154895,
+      "shares": 5450,
+      "market_value_base": 156417.77,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Ross Stores Inc",
+      "ticker": "ROST UQ",
+      "weight": 0.0015665755834860522,
+      "shares": 676,
+      "market_value_base": 156216.84,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Elevance Health Inc",
+      "ticker": "ELV US",
+      "weight": 0.00156216397247992,
+      "shares": 366,
+      "market_value_base": 155776.92,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Marvell Technology Inc",
+      "ticker": "MRVL US",
+      "weight": 0.0015561658983414683,
+      "shares": 1099,
+      "market_value_base": 155178.8,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Comcast Corp",
+      "ticker": "CMCSA UQ",
+      "weight": 0.001552889781775744,
+      "shares": 6349,
+      "market_value_base": 154852.11,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Cigna Corp",
+      "ticker": "CI US",
+      "weight": 0.0015515843091425873,
+      "shares": 527,
+      "market_value_base": 154721.93,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "US Bancorp",
+      "ticker": "USB UN",
+      "weight": 0.0015500607228992667,
+      "shares": 2600,
+      "market_value_base": 154570,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "E.On Se",
+      "ticker": "EOAN GR",
+      "weight": 0.001539148323489049,
+      "shares": 7215,
+      "market_value_base": 153481.83,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Equinor ASA",
+      "ticker": "EQNR NO",
+      "weight": 0.0015299088303982605,
+      "shares": 3648,
+      "market_value_base": 152560.48,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Stryker Corp",
+      "ticker": "SYK UN",
+      "weight": 0.0015293741261364698,
+      "shares": 468,
+      "market_value_base": 152507.16,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Principal Financial Group Inc",
+      "ticker": "PFG UQ",
+      "weight": 0.0015248659434491476,
+      "shares": 1371,
+      "market_value_base": 152057.61,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Northern Trust Corp",
+      "ticker": "NTRS UQ",
+      "weight": 0.0015245770306625348,
+      "shares": 880,
+      "market_value_base": 152028.8,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Lowe's Cos Inc",
+      "ticker": "LOW UN",
+      "weight": 0.00152224045727549,
+      "shares": 676,
+      "market_value_base": 151795.8,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "ProLogis Inc",
+      "ticker": "PLD UN",
+      "weight": 0.00151763269444339,
+      "shares": 1192,
+      "market_value_base": 151336.32,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "London Stock Exchange Group PLC",
+      "ticker": "LSE LN",
+      "weight": 0.0015162701612841717,
+      "shares": 1196,
+      "market_value_base": 151200.45,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Republic Services Inc",
+      "ticker": "RSG US",
+      "weight": 0.0015149840431001012,
+      "shares": 612,
+      "market_value_base": 151072.2,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Itochu Corp",
+      "ticker": "8001 JT",
+      "weight": 0.0015102377906608113,
+      "shares": 10635,
+      "market_value_base": 150598.91,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Novozymes A/S",
+      "ticker": "NZYMB DC",
+      "weight": 0.0015077222136902523,
+      "shares": 2192,
+      "market_value_base": 150348.06,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Relx PLC",
+      "ticker": "REL LN",
+      "weight": 0.0014947829120783632,
+      "shares": 3699,
+      "market_value_base": 149057.77,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Deutsche Boerse AG",
+      "ticker": "DB1 GY",
+      "weight": 0.0014879737561564598,
+      "shares": 416,
+      "market_value_base": 148378.77,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Upm-Kymmene Oyj",
+      "ticker": "UPM FH",
+      "weight": 0.0014872253506977684,
+      "shares": 5924,
+      "market_value_base": 148304.14,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "CVS Health Corp",
+      "ticker": "CVS US",
+      "weight": 0.001486650333023892,
+      "shares": 1768,
+      "market_value_base": 148246.8,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Kraft Foods Inc",
+      "ticker": "KFT",
+      "weight": 0.001480371870078995,
+      "shares": 2236,
+      "market_value_base": 147620.72,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Astellas Pharma Inc",
+      "ticker": "4503 JT",
+      "weight": 0.0014796755110403836,
+      "shares": 9448,
+      "market_value_base": 147551.28,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Trane Technologies Plc",
+      "ticker": "TT US",
+      "weight": 0.0014665321353150768,
+      "shares": 364,
+      "market_value_base": 146240.64,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Inpex Corp",
+      "ticker": "1605 JT",
+      "weight": 0.001465249426723073,
+      "shares": 6775,
+      "market_value_base": 146112.73,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Cie de Saint-Gobain",
+      "ticker": "SGO FP",
+      "weight": 0.0014643754680506223,
+      "shares": 1768,
+      "market_value_base": 146025.58,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Synchrony Financial",
+      "ticker": "SYF UN",
+      "weight": 0.0014619526520407082,
+      "shares": 1977,
+      "market_value_base": 145783.98,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Kimberly-Clark Corp",
+      "ticker": "KMB UN",
+      "weight": 0.001460323167879073,
+      "shares": 1343,
+      "market_value_base": 145621.49,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Murata Manufacturing Co Ltd",
+      "ticker": "6981 JT",
+      "weight": 0.00146017785908775,
+      "shares": 4720,
+      "market_value_base": 145607,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Transurban Group",
+      "ticker": "TCL AU",
+      "weight": 0.0014597480499230775,
+      "shares": 14506,
+      "market_value_base": 145564.14,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Toyota Tsusho Corp",
+      "ticker": "8015 JT",
+      "weight": 0.0014542041535043648,
+      "shares": 3705,
+      "market_value_base": 145011.31,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Leonardo Spa",
+      "ticker": "LDO IM",
+      "weight": 0.0014534274684879413,
+      "shares": 2705,
+      "market_value_base": 144933.86,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "AT&T Inc",
+      "ticker": "T UN",
+      "weight": 0.0014526477750079296,
+      "shares": 6697,
+      "market_value_base": 144856.11,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Corning Inc",
+      "ticker": "GLW UN",
+      "weight": 0.0014431828477122447,
+      "shares": 1356,
+      "market_value_base": 143912.28,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Publicis Groupe",
+      "ticker": "PUB FP",
+      "weight": 0.0014395794103080953,
+      "shares": 1251,
+      "market_value_base": 143552.95,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Recruit Holdings Co Ltd",
+      "ticker": "6098 JP",
+      "weight": 0.0014359689531555728,
+      "shares": 1333,
+      "market_value_base": 143192.92,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "BAE Systems PLC",
+      "ticker": "BA/ LN",
+      "weight": 0.0014291299131620238,
+      "shares": 5778,
+      "market_value_base": 142510.94,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Bouygues SA",
+      "ticker": "EN FP",
+      "weight": 0.0014289854066276576,
+      "shares": 3023,
+      "market_value_base": 142496.53,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Royal Caribbean Cruises Ltd",
+      "ticker": "RCL US",
+      "weight": 0.0014205993143747977,
+      "shares": 433,
+      "market_value_base": 141660.28,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "AutoZone Inc",
+      "ticker": "AZO UN",
+      "weight": 0.0014191865398736525,
+      "shares": 44,
+      "market_value_base": 141519.4,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Engie",
+      "ticker": "ENGI FP",
+      "weight": 0.0014190432367247217,
+      "shares": 5246,
+      "market_value_base": 141505.11,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Applovin Corp-Class A",
+      "ticker": "APP US",
+      "weight": 0.0014162885871809993,
+      "shares": 361,
+      "market_value_base": 141230.42,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Chugai Pharmaceutical Co Ltd",
+      "ticker": "4519 JT",
+      "weight": 0.00141373129284868,
+      "shares": 3278,
+      "market_value_base": 140975.41,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Fortinet Inc",
+      "ticker": "FTNT UQ",
+      "weight": 0.0014098434553533007,
+      "shares": 1183,
+      "market_value_base": 140587.72,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "O'Reilly Automotive Inc",
+      "ticker": "ORLY US",
+      "weight": 0.0014062401182312707,
+      "shares": 1560,
+      "market_value_base": 140228.4,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Brookfield Asset Mgmt-A",
+      "ticker": "BAM CN",
+      "weight": 0.0014028693353446294,
+      "shares": 2637,
+      "market_value_base": 139892.27,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Hartford Financial Services Grp",
+      "ticker": "HIG UN",
+      "weight": 0.0013974273255594465,
+      "shares": 1040,
+      "market_value_base": 139349.6,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Dow Inc",
+      "ticker": "DOW US",
+      "weight": 0.001391795481721831,
+      "shares": 4420,
+      "market_value_base": 138788,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Sherwin-Williams Co/The",
+      "ticker": "SHW UN",
+      "weight": 0.0013906352175978777,
+      "shares": 403,
+      "market_value_base": 138672.3,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Howmet Aerospace Inc",
+      "ticker": "HWM US",
+      "weight": 0.0013869450361602609,
+      "shares": 672,
+      "market_value_base": 138304.32,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Imperial Oil Ltd",
+      "ticker": "IMO CN",
+      "weight": 0.0013817989589100636,
+      "shares": 1100,
+      "market_value_base": 137791.16,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Voestalpine AG",
+      "ticker": "VOE AV",
+      "weight": 0.0013769754892386699,
+      "shares": 3069,
+      "market_value_base": 137310.17,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Dollarama Inc",
+      "ticker": "DOL CT",
+      "weight": 0.0013728544958151842,
+      "shares": 896,
+      "market_value_base": 136899.23,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Blackstone Inc",
+      "ticker": "BX US",
+      "weight": 0.0013697384295123665,
+      "shares": 1143,
+      "market_value_base": 136588.5,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Orange SA",
+      "ticker": "ORA FP",
+      "weight": 0.0013606733270275892,
+      "shares": 8059,
+      "market_value_base": 135684.54,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "UCB SA",
+      "ticker": "UCB BB",
+      "weight": 0.0013591642816916127,
+      "shares": 418,
+      "market_value_base": 135534.06,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Seagate Technology Holdings",
+      "ticker": "STX US",
+      "weight": 0.001359134197055728,
+      "shares": 294,
+      "market_value_base": 135531.06,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Canon Inc",
+      "ticker": "7751 JT",
+      "weight": 0.0013557375413822258,
+      "shares": 4606,
+      "market_value_base": 135192.35,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Sysco Corp",
+      "ticker": "SYY UN",
+      "weight": 0.0013534692601186395,
+      "shares": 1756,
+      "market_value_base": 134966.16,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "HCA Healthcare Inc",
+      "ticker": "HCA UN",
+      "weight": 0.0013402434524910083,
+      "shares": 270,
+      "market_value_base": 133647.3,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Volvo AB",
+      "ticker": "VOLVB SS",
+      "weight": 0.0013384483022677682,
+      "shares": 4216,
+      "market_value_base": 133468.29,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Apollo Global Management Inc",
+      "ticker": "APO US",
+      "weight": 0.001338217252264174,
+      "shares": 1143,
+      "market_value_base": 133445.25,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Muenchener Rueckver Ag-Reg",
+      "ticker": "MUV2 GR",
+      "weight": 0.0013360913716104418,
+      "shares": 210,
+      "market_value_base": 133233.26,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Mitsubishi Electric Corp",
+      "ticker": "6503 JT",
+      "weight": 0.0013356227532654776,
+      "shares": 4687,
+      "market_value_base": 133186.53,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Vertiv Holdings Co",
+      "ticker": "VRT US",
+      "weight": 0.0013349764350045546,
+      "shares": 728,
+      "market_value_base": 133122.08,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Cadence Design Systems Inc",
+      "ticker": "CDNS UQ",
+      "weight": 0.0013346218374295936,
+      "shares": 416,
+      "market_value_base": 133086.72,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Mitsui & Co Ltd",
+      "ticker": "8031 JT",
+      "weight": 0.001334388480937248,
+      "shares": 4558,
+      "market_value_base": 133063.45,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "ServiceNow Inc",
+      "ticker": "NOW UN",
+      "weight": 0.0013293498058371592,
+      "shares": 1300,
+      "market_value_base": 132561,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Enbridge Inc",
+      "ticker": "ENB CT",
+      "weight": 0.001320537314011694,
+      "shares": 2808,
+      "market_value_base": 131682.23,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "JAPANESE YEN",
+      "ticker": null,
+      "weight": 0.0013196096041231294,
+      "shares": 20824735,
+      "market_value_base": 131589.72,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Hexagon Ab-B Shs",
+      "ticker": "HEXAB SS",
+      "weight": 0.001318688613136579,
+      "shares": 12109,
+      "market_value_base": 131497.88,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Westpac Banking Corp",
+      "ticker": "WBC AU",
+      "weight": 0.0013136668857147051,
+      "shares": 5147,
+      "market_value_base": 130997.12,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Crown Castle International Cor",
+      "ticker": "CCI",
+      "weight": 0.001303428883558903,
+      "shares": 1467,
+      "market_value_base": 129976.2,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Air Products & Chemicals Inc",
+      "ticker": "APD UN",
+      "weight": 0.0012900540567015231,
+      "shares": 422,
+      "market_value_base": 128642.48,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Airbnb Inc-Class A",
+      "ticker": "ABNB US",
+      "weight": 0.0012879557536306853,
+      "shares": 676,
+      "market_value_base": 128433.24,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "EMCOR Group Inc",
+      "ticker": "EME UN",
+      "weight": 0.001287451434851138,
+      "shares": 211,
+      "market_value_base": 128382.95,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Legrand SA",
+      "ticker": "LR FP",
+      "weight": 0.0012854290453448488,
+      "shares": 887,
+      "market_value_base": 128181.28,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Lonza Group AG",
+      "ticker": "LONN SW",
+      "weight": 0.0012652367391496376,
+      "shares": 156,
+      "market_value_base": 126167.73,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Deutsche Bank AG",
+      "ticker": "DBK GY",
+      "weight": 0.0012636142747363762,
+      "shares": 3582,
+      "market_value_base": 126005.94,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Agilent Technologies Inc",
+      "ticker": "A UN",
+      "weight": 0.0012618218321303655,
+      "shares": 720,
+      "market_value_base": 125827.2,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Mitsubishi Estate Co Ltd",
+      "ticker": "8802 JP",
+      "weight": 0.0012591498150532063,
+      "shares": 5082,
+      "market_value_base": 125560.75,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Ingersoll-Rand Inc",
+      "ticker": "IR US",
+      "weight": 0.0012550198965210746,
+      "shares": 1508,
+      "market_value_base": 125148.92,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Waste Management Inc",
+      "ticker": "WM UN",
+      "weight": 0.001250972109044908,
+      "shares": 528,
+      "market_value_base": 124745.28,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "TransDigm Group Inc",
+      "ticker": "TDG UN",
+      "weight": 0.0012484024800118762,
+      "shares": 104,
+      "market_value_base": 124489.04,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Assicurazioni Generali SpA",
+      "ticker": "G IM",
+      "weight": 0.0012371535338082287,
+      "shares": 2531,
+      "market_value_base": 123367.31,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Autodesk Inc",
+      "ticker": "ADSK UQ",
+      "weight": 0.0012283051409839412,
+      "shares": 468,
+      "market_value_base": 122484.96,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Thomson Reuters Corp",
+      "ticker": "TRI CN",
+      "weight": 0.0012266097714697184,
+      "shares": 1086,
+      "market_value_base": 122315.9,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Huntington Bancshares Inc/OH",
+      "ticker": "HBAN UQ",
+      "weight": 0.001226198414215055,
+      "shares": 7904,
+      "market_value_base": 122274.88,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Paccar Inc",
+      "ticker": "PCAR UQ",
+      "weight": 0.0012231217587852466,
+      "shares": 1196,
+      "market_value_base": 121968.08,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Cummins Inc",
+      "ticker": "CMI UN",
+      "weight": 0.0012186172865363504,
+      "shares": 270,
+      "market_value_base": 121518.9,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Galderma Group Ag",
+      "ticker": "GALD SW",
+      "weight": 0.0012143304264870202,
+      "shares": 518,
+      "market_value_base": 121091.42,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Robinhood Markets Inc - A",
+      "ticker": "HOOD US",
+      "weight": 0.0012097715010471726,
+      "shares": 1491,
+      "market_value_base": 120636.81,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "InterContinental Hotels Group",
+      "ticker": "IHG LN",
+      "weight": 0.0012066746889113212,
+      "shares": 676,
+      "market_value_base": 120328,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Evolution AB",
+      "ticker": "EVO SS",
+      "weight": 0.0012060719933724314,
+      "shares": 1402,
+      "market_value_base": 120267.9,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "National Australia Bank Ltd",
+      "ticker": "NAB AU",
+      "weight": 0.0012042592937782587,
+      "shares": 4368,
+      "market_value_base": 120087.14,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "EDP Renovaveis SA",
+      "ticker": "EDPR PL",
+      "weight": 0.0011982147890184248,
+      "shares": 7398,
+      "market_value_base": 119484.39,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "TDK Corp",
+      "ticker": "6762 JT",
+      "weight": 0.0011966962168810848,
+      "shares": 8963,
+      "market_value_base": 119332.96,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "NXP Semiconductors NV",
+      "ticker": "NXPI US",
+      "weight": 0.0011926643742619372,
+      "shares": 479,
+      "market_value_base": 118930.91,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Garmin Ltd",
+      "ticker": "GRMN US",
+      "weight": 0.0011913226997835992,
+      "shares": 416,
+      "market_value_base": 118797.12,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Keppel Corp Ltd",
+      "ticker": "KEP SP",
+      "weight": 0.0011897218963081745,
+      "shares": 16098,
+      "market_value_base": 118637.49,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "East Japan Railway Co",
+      "ticker": "9020 JT",
+      "weight": 0.0011823545701084904,
+      "shares": 4873,
+      "market_value_base": 117902.83,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Regions Financial Corp",
+      "ticker": "RF UN",
+      "weight": 0.001181018511428851,
+      "shares": 4160,
+      "market_value_base": 117769.6,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Telefonica Sa",
+      "ticker": "TEF SM",
+      "weight": 0.001180497946945926,
+      "shares": 31200,
+      "market_value_base": 117717.69,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Synopsys Inc",
+      "ticker": "SNPS UQ",
+      "weight": 0.001174500173653833,
+      "shares": 260,
+      "market_value_base": 117119.6,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Packaging Corp of America",
+      "ticker": "PKG US",
+      "weight": 0.0011718928385438259,
+      "shares": 468,
+      "market_value_base": 116859.6,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Dover Corp",
+      "ticker": "DOV UN",
+      "weight": 0.0011693115767849186,
+      "shares": 572,
+      "market_value_base": 116602.2,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "KKR & Co Inc -A",
+      "ticker": "KKR US",
+      "weight": 0.001158123702392117,
+      "shares": 1197,
+      "market_value_base": 115486.56,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "General Motors Co",
+      "ticker": "GM UN",
+      "weight": 0.0011543450721249989,
+      "shares": 1336,
+      "market_value_base": 115109.76,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Diageo PLC",
+      "ticker": "DGE LN",
+      "weight": 0.0011542063819535704,
+      "shares": 4576,
+      "market_value_base": 115095.93,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Take-Two Interactive Software",
+      "ticker": "TTWO UQ",
+      "weight": 0.001129095237791211,
+      "shares": 524,
+      "market_value_base": 112591.88,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Adobe Inc",
+      "ticker": "ADBE US",
+      "weight": 0.0011230835252844912,
+      "shares": 468,
+      "market_value_base": 111992.4,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Fortum Oyj",
+      "ticker": "FORTUM FH",
+      "weight": 0.0011171975665557699,
+      "shares": 4310,
+      "market_value_base": 111405.46,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Doordash Inc - A",
+      "ticker": "DASH US",
+      "weight": 0.0011080878385277635,
+      "shares": 615,
+      "market_value_base": 110497.05,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Universal Music Group NV",
+      "ticker": "UMG NA",
+      "weight": 0.0011042661872313305,
+      "shares": 5779,
+      "market_value_base": 110115.96,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Singapore Technologies Engineering Ltd",
+      "ticker": "STE SP",
+      "weight": 0.0010935273761701677,
+      "shares": 15100,
+      "market_value_base": 109045.1,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Ferrari NV",
+      "ticker": "RACE IM",
+      "weight": 0.0010864823567029284,
+      "shares": 260,
+      "market_value_base": 108342.58,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Zurich Insurance Group Ag",
+      "ticker": "ZURN SW",
+      "weight": 0.001078644105669529,
+      "shares": 140,
+      "market_value_base": 107560.96,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "AIA Group Ltd",
+      "ticker": "1299 HK",
+      "weight": 0.001072949786071393,
+      "shares": 10694,
+      "market_value_base": 106993.13,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Commerzbank AG",
+      "ticker": "COM VX",
+      "weight": 0.0010707382644875088,
+      "shares": 2507,
+      "market_value_base": 106772.6,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Intuit Inc",
+      "ticker": "INTU UQ",
+      "weight": 0.0010684859280809412,
+      "shares": 312,
+      "market_value_base": 106548,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Darden Restaurants Inc",
+      "ticker": "DRI UN",
+      "weight": 0.0010600366580927236,
+      "shares": 467,
+      "market_value_base": 105705.45,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "CRH PLC",
+      "ticker": "G25508105",
+      "weight": 0.0010468030284597626,
+      "shares": 1101,
+      "market_value_base": 104385.81,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Danone",
+      "ticker": "BN FP",
+      "weight": 0.0010450932183203156,
+      "shares": 1393,
+      "market_value_base": 104215.31,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "DSV A/S",
+      "ticker": "DSV DC",
+      "weight": 0.0010440802686300778,
+      "shares": 475,
+      "market_value_base": 104114.3,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Constellation Energy",
+      "ticker": "CEG US",
+      "weight": 0.0010427254571940701,
+      "shares": 416,
+      "market_value_base": 103979.2,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Siemens Healthineers Ag",
+      "ticker": "SHL GR",
+      "weight": 0.0010358307606241346,
+      "shares": 2075,
+      "market_value_base": 103291.67,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Pernod-Ricard SA",
+      "ticker": "RI FP",
+      "weight": 0.0010297589791277652,
+      "shares": 1295,
+      "market_value_base": 102686.2,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Advantest Corp",
+      "ticker": "6857 JT",
+      "weight": 0.0010207618679200874,
+      "shares": 575,
+      "market_value_base": 101789.02,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "KDDI Corp",
+      "ticker": "9433 JT",
+      "weight": 0.0010054888008205027,
+      "shares": 5600,
+      "market_value_base": 100266.01,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Western Digital Corp",
+      "ticker": "WDC UQ",
+      "weight": 0.0009760942062008799,
+      "shares": 369,
+      "market_value_base": 97334.82,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Heineken NV",
+      "ticker": "HEIA NA",
+      "weight": 0.0009716003638566629,
+      "shares": 1040,
+      "market_value_base": 96886.7,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "MercadoLibre Inc",
+      "ticker": "MELI",
+      "weight": 0.0009539838039037797,
+      "shares": 63,
+      "market_value_base": 95130,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Mitsubishi Heavy Industries Ltd",
+      "ticker": "7011 JT",
+      "weight": 0.0009499178653639629,
+      "shares": 5147,
+      "market_value_base": 94724.55,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Adidas AG",
+      "ticker": "ADS GY",
+      "weight": 0.0009462666936708762,
+      "shares": 485,
+      "market_value_base": 94360.46,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Keyence Corp",
+      "ticker": "6861 JT",
+      "weight": 0.0009193344262162961,
+      "shares": 208,
+      "market_value_base": 91674.81,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Heidelberg Materials AG",
+      "ticker": "HEI GY",
+      "weight": 0.0009169459066912906,
+      "shares": 472,
+      "market_value_base": 91436.63,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Boston Scientific Corp",
+      "ticker": "BSX UN",
+      "weight": 0.0009140013228130159,
+      "shares": 2132,
+      "market_value_base": 91143,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "10YR MINI JGB FUT Dec26",
+      "ticker": "BJZ6",
+      "weight": 0.0009041897202298197,
+      "shares": 54,
+      "market_value_base": 90164.6,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Heico Corp",
+      "ticker": "HEI UN",
+      "weight": 0.0009006888714340369,
+      "shares": 270,
+      "market_value_base": 89815.5,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Holcim Ltd",
+      "ticker": "HOLN SW",
+      "weight": 0.0008517637323265465,
+      "shares": 951,
+      "market_value_base": 84936.75,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Honeywell International Inc",
+      "ticker": "HON US",
+      "weight": 0.000831928931887765,
+      "shares": 377,
+      "market_value_base": 82958.85,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Bayerische Motoren Werke Ag",
+      "ticker": "BMW GR",
+      "weight": 0.0008280574403778828,
+      "shares": 1248,
+      "market_value_base": 82572.79,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Tokyo Electron Ltd",
+      "ticker": "8035 JT",
+      "weight": 0.0008168237370564168,
+      "shares": 1560,
+      "market_value_base": 81452.58,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Amadeus IT Group SA",
+      "ticker": "AMS SM",
+      "weight": 0.0007894447127589492,
+      "shares": 1167,
+      "market_value_base": 78722.38,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Kinross Gold Corp",
+      "ticker": "K CN",
+      "weight": 0.000777084440105721,
+      "shares": 3485,
+      "market_value_base": 77489.83,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Chubb Ltd",
+      "ticker": "CB US",
+      "weight": 0.0007760255612046993,
+      "shares": 212,
+      "market_value_base": 77384.24,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Mercedes-Benz AG",
+      "ticker": "MBG GY",
+      "weight": 0.0007250671018398815,
+      "shares": 1561,
+      "market_value_base": 72302.73,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Taser International Inc",
+      "ticker": "TASR UQ",
+      "weight": 0.000652876711545797,
+      "shares": 208,
+      "market_value_base": 65104,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Nike Inc",
+      "ticker": "NKE UN",
+      "weight": 0.0006037023713710617,
+      "shares": 1560,
+      "market_value_base": 60200.4,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "EURO-BUXL 30Y BND Dec26",
+      "ticker": "UBZ6",
+      "weight": 0.0005948765420236875,
+      "shares": 13,
+      "market_value_base": 59320.3,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Honeywell Aerospace Inc",
+      "ticker": "HONA US",
+      "weight": 0.0005781348432823313,
+      "shares": 377,
+      "market_value_base": 57650.84,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Rocket Lab Corp",
+      "ticker": "RKLB US",
+      "weight": 0.0005769017743395372,
+      "shares": 1084,
+      "market_value_base": 57527.88,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Roblox Corp -Class A",
+      "ticker": "RBLX US",
+      "weight": 0.0005700326497101037,
+      "shares": 1153,
+      "market_value_base": 56842.9,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Zoetis Inc",
+      "ticker": "ZTS US",
+      "weight": 0.0005382582601098816,
+      "shares": 676,
+      "market_value_base": 53674.4,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Dassault Systemes SE",
+      "ticker": "DSY FP",
+      "weight": 0.0004832415839284575,
+      "shares": 1666,
+      "market_value_base": 48188.21,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Kioxia Holdings Corp",
+      "ticker": "285A JP",
+      "weight": 0.0004692084049558007,
+      "shares": 870,
+      "market_value_base": 46788.84,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "EURO-BUND FUTURE Dec26",
+      "ticker": "RXZ6",
+      "weight": 0.00039624915165062304,
+      "shares": 29,
+      "market_value_base": 39513.44,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Versant Media Group Inc",
+      "ticker": "VSNT US",
+      "weight": 0.0003294041994605317,
+      "shares": 975,
+      "market_value_base": 32847.75,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Fedex Freight Holding Co",
+      "ticker": "FDXF US",
+      "weight": 0.00032092324032251566,
+      "shares": 259,
+      "market_value_base": 32002.04,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Las Vegas Sands Corp",
+      "ticker": "LVS UN",
+      "weight": 0.0003177733789453878,
+      "shares": 778,
+      "market_value_base": 31687.94,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Octave Intelligence Plc-Sdr",
+      "ticker": "OCTVSDB SS",
+      "weight": 0.00025226649107732823,
+      "shares": 1206,
+      "market_value_base": 25155.68,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Tower Semiconductor Ltd",
+      "ticker": "TSEM IT",
+      "weight": 0.00023463920093764624,
+      "shares": 163,
+      "market_value_base": 23397.91,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "CANADIAN DOLLAR",
+      "ticker": null,
+      "weight": 0.00011013403561094239,
+      "shares": 15489.31,
+      "market_value_base": 10982.42,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "Mobility Global Inc",
+      "ticker": "MBGL US",
+      "weight": 7.070651577013156e-05,
+      "shares": 359,
+      "market_value_base": 7050.76,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "LONG GILT FUTURE Dec26",
+      "ticker": "G Z6",
+      "weight": 6.082993037342436e-05,
+      "shares": 19,
+      "market_value_base": 6065.88,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "AUSTRALIAN DOLLAR",
+      "ticker": null,
+      "weight": 4.469393563454686e-05,
+      "shares": 6484.42,
+      "market_value_base": 4456.82,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "DANISH KRONE",
+      "ticker": null,
+      "weight": 4.086556543609941e-05,
+      "shares": 27329.71,
+      "market_value_base": 4075.06,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "SWEDISH KRONA",
+      "ticker": null,
+      "weight": 3.644151944713492e-05,
+      "shares": 35905.62,
+      "market_value_base": 3633.9,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "NORWEGIAN KRONE",
+      "ticker": null,
+      "weight": 3.4664821133904265e-05,
+      "shares": 32641.13,
+      "market_value_base": 3456.73,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "SINGAPORE DOLLAR",
+      "ticker": null,
+      "weight": 2.839488216917431e-05,
+      "shares": 3630.77,
+      "market_value_base": 2831.5,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "HONG KONG DOLLAR",
+      "ticker": null,
+      "weight": 1.8261574546251036e-05,
+      "shares": 14278.8,
+      "market_value_base": 1821.02,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "SWISS FRANC",
+      "ticker": null,
+      "weight": 1.309734623240336e-05,
+      "shares": 1071.3,
+      "market_value_base": 1306.05,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "EURO-SCHATZ FUT Dec26",
+      "ticker": "DUZ6",
+      "weight": 6.706667595656152e-06,
+      "shares": 12,
+      "market_value_base": 668.78,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "EURO",
+      "ticker": null,
+      "weight": 2.673521308953513e-06,
+      "shares": 849.13,
+      "market_value_base": 266.6,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "US 2YR NOTE (CBT) Dec26",
+      "ticker": "TUZ6",
+      "weight": -0.0005642167881829934,
+      "shares": 75,
+      "market_value_base": -56262.95,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "US LONG BOND(CBT) Dec26",
+      "ticker": "USZ6",
+      "weight": -0.0008696686033733246,
+      "shares": 152,
+      "market_value_base": -86722.2,
+      "asset_group": "EQ"
+    },
+    {
+      "date": "2026-11-06T00:00:00.000Z",
+      "name": "US 10YR NOTE (CBT)Dec26",
+      "ticker": "TYZ6",
+      "weight": -0.0014787578293637806,
+      "shares": 155,
+      "market_value_base": -147459.77,
+      "asset_group": "EQ"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-09",
+  "scope": "Known input flags for the proposed daily 2020-2026 proxy. Original inputs are preserved.",
+  "findings": [
+    {
+      "ticker": "IGLT.L",
+      "status": "confirmed duplicate dividend in Yahoo adjusted prices; separate corrected series created",
+      "issuer": "https://www.ishares.com/uk/individual/en/products/251806/ishares-uk-gilts-ucits-etf",
+      "issuer_evidence": "Issuer distribution table contains one GBP 0.2025 distribution with ex-date 2024-11-14 and pay date 2024-11-27.",
+      "vendor_evidence": "Yahoo chart data includes GBP 0.2025 on both 2024-11-14 and 2024-11-15; the adjusted-close jump includes both entries. Raw 2024-11-14 close GBP 9.9350004196167.",
+      "correction": "Multiply levels on and after 2024-11-15 by 1 - 0.2025 / 9.9350004196167; preserve the 2024-11-14 real dividend. This changes only the 2024-11-15 daily return; subsequent levels are rescaled.",
+      "corrected_file": "data/IGLT_L_DEDUP_20241115.CSV",
+      "year_2024_yahoo_return": -0.0132,
+      "year_2024_corrected_return": -0.03328994168988941,
+      "year_2024_issuer_rounded_nav_return": -0.033,
+      "year_2025_yahoo_return": 0.04727,
+      "year_2025_issuer_rounded_nav_return": 0.051,
+      "limitations": "2025 performance discrepancy persists. Market closes and issuer NAV can differ; no validated cause established and no further correction applied. Other vendor errors may remain."
+    },
+    {
+      "ticker": "EXHB.DE and EXHD.DE",
+      "status": "pre-2020 2009 missing-dividend concern remains uncorrected; excluded from daily sample",
+      "evidence": "On 2009-05-15 unadjusted closes fell EUR 3.77 and 4.28 respectively; Yahoo returned no dividend events for May 2009. Third-party distribution listings show 2009-05-15 distributions of EUR 3.795 and 4.126 respectively. They are consistent with the flagged drops, but amount treatment and exact adjustment still need independent issuer reconciliation.",
+      "sources": ["https://www.boerse.de/ausschuettungen/iShares-ebrexx-Gov-Germany-15-25yr-UCITS-ETF-DE-EUR-Dis/DE0006289473", "https://www.boerse.de/ausschuettungen/iShares-ebrexx-Government-Germany-55-105yr-UCITS-ETF-DE/DE0006289499"],
+      "limitations": "The suspect 2009 observations are not used in the 2020-2026 study; do not infer that the rest of the vendor history is verified."
+    },
+    {
+      "ticker": "2561.T",
+      "status": "two vendor observations before its February 2020 listing were previously excluded",
+      "issuer": "https://www.blackrock.com/jp/individual/ja/products/313081/ishares-core-japan-government-bond-etf",
+      "limitations": "Saved history begins 2020-02-26; ETF distribution adjustment and close timing remain imperfect proxies for 10-year JGB futures."
+    },
+    {
+      "ticker": "EXHB.DE, EXHD.DE, EXX6.DE, IGLT.L, 2561.T, SHY, IEF, TLT",
+      "status": "2020-2026 Yahoo dividend-event duplicate scan",
+      "evidence": "Only IGLT.L had two identical dividend amounts less than five calendar days apart. This scan does not identify absent, misdated or incorrect dividends."
+    }
+  ]
+}

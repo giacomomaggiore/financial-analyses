@@ -1,0 +1,34 @@
+{
+  "as_of": "2026-11-09",
+  "scope": "Supplemental-data validation and uncalibrated existing-proxy diagnostics; no new replication implemented.",
+  "new_price_or_level_series": 15,
+  "schema_checks": "All 15 satisfy date,adjusted_price; finite positive levels; unique ascending dates; matching metadata. Four Swinkels monthly level series have continuous month-end dates and reproduce the workbook cached monthly returns.",
+  "nav_diagnostic_sample": {
+    "first_month": "2024-12",
+    "last_month": "2026-08",
+    "months": 21,
+    "method": "Each series sampled at its last available valuation in each calendar month; valuation-date mismatches remain, no calibration to NAV.",
+    "official_nav_cumulative_return": 0.28118830894496205,
+    "exchange_price_cumulative_return": 0.2867980797966032,
+    "nav_market_monthly_correlation": 0.9570270355252735,
+    "nav_market_annualized_tracking_error": 0.035742988451095664,
+    "uncalibrated_existing_proxy_nav_monthly_correlation": 0.9901766469088025,
+    "uncalibrated_existing_proxy_nav_annualized_tracking_error": 0.017490385643330147,
+    "uncalibrated_existing_proxy_nav_monthly_rmse": 0.004935329471263777,
+    "limitation": "Short in-sample historical diagnostic, not validation of long-run fidelity. Official NAV has no 2026-08-31 observation; last August valuation is 2026-08-28. Index month-end observations may represent later markets."
+  },
+  "yahoo_candidate_quality_flags": [
+    "2561.T returned two observations before its February 2020 listing. These were explicitly excluded; saved series begins 2020-02-26.",
+    "EXHB.DE and EXHD.DE adjusted prices show approximately -3.63% and -3.52% on 2009-05-15. These are investigation flags, not proven errors. Do not interpolate, delete or winsorize without an issuer distribution/NAV reconciliation.",
+    "IGLT.L Yahoo adjusted-close calendar 2025 return is approximately 4.73%, versus 5.1% rounded official issuer NAV performance. Different prices/valuation dates or adjustments require reconciliation before treating it as official total return.",
+    "ETF files are research candidates, not certified official NAV total-return histories."
+  ],
+  "unresolved": [
+    "Full official WTNTSGN NTR level history and point-in-time index constituents/currency weights.",
+    "Contract settlement history, multipliers, exact notional definition and historical roll accounting for all eight futures.",
+    "Historical borrowing, repo/basis, margin, trade execution and cash-collateral remuneration.",
+    "Exact exceptional-reset threshold convention and execution timing; public short-form methodology says more than 5% without resolving all implementation details.",
+    "Current daily SONIA/JPY cash histories and a verified pre-euro DEM month-end FX series were not downloaded.",
+    "Historical ETF fee schedules and distribution-adjustment verification."
+  ]
+}
