@@ -1,1 +1,1 @@
-"""Reusable functions for the model portfolio analysis."""
+"""Shared utilities for financial and investment analysis notebooks."""

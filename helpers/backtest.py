@@ -1,4 +1,4 @@
-"""Data loading, portfolio returns, and summary metrics for main.ipynb."""
+"""Backward-compatible portfolio utilities for financial analysis notebooks."""
 
 from pathlib import Path
 
