@@ -1,5 +1,7 @@
 # DBMF Methodology and Peer Decision
 
+The current monthly comparison is governed by the [10 November 2026 assumption audit](realistic_backtest.md): SG CTA net returns less a hypothetical ETF fee before observed DBMF, with aggregate gross-up only as a sensitivity. The WTMF files discussed below belong to an older, separate experiment and are not inputs to that notebook.
+
 ## Status
 
 DBMF cannot be reconstructed from public rules. `data/DBMF_proxy.csv` is a

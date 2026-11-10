@@ -1,5 +1,9 @@
 # Global 90/60 — source availability audit
 
+## 2026-11-10: configuration and product implementation audit
+
+The [current assumption record](../methodology/realistic_backtest.md) supersedes the historical parameter/result descriptions below for the active notebook. It documents mixed-market product access, two-thirds NTSG plus one-third DBMF, a 2000-start research panel, a separate all-observed ETF panel, current product fees only before inception, conservative CTA treatment without baseline gross-up, and self-financing investor execution costs. Earlier findings below remain dated research evidence, not assertions that the notebook still uses the original configurations.
+
 ## 2026-11-09: free long-history alternatives verified
 
 A roughly 40-year **generic global equity/government-bond leverage study is feasible with free monthly data**. This does not establish faithful historical NTSG replication. No benchmark selection or backtest implementation was changed.

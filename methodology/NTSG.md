@@ -1,5 +1,7 @@
 # NTSG Historical Proxy
 
+The current monthly comparison is governed by the [10 November 2026 assumption audit](realistic_backtest.md): a generic historical World/WGBI core followed by observed NTSG returns, with explicit investor execution costs. The URTH/BNDW files discussed below describe an earlier, separate proxy and are not the current notebook's historical input basket.
+
 ## Status
 
 `data/NTSG_proxy.csv` is a transparent synthetic proxy, not the official
