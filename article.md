@@ -27,9 +27,19 @@ Secondariamente, NTSG ha una metodologia tutt'altro che semplice: oltre ad appli
 
 Di conseguenza, sono partito da un modello semplice di return stacking:
 
-[]
+$$
+R_{90/60,t}^{\mathrm{gross}}=0{,}90R_{E,t}+0{,}60R_{B,t}-0{,}50R_{cash,t}.
+$$
 
-in cui .... , per poi compicarlo leggermente aggiungtendo TER e un drag annuo pipotetico sul nozionale obligazionario per modellare gli attriti nel trading dei futures.
+dove R_E è il ritorno dell'indice azionario, R_B di quello obbligazionario e R_cash rappresenta il costo del finanziamento.
+
+La versione effettivamente usata nel backtest aggiunge il TER mensile della proxy (0.85%)e un drag d = 0,50% annuo sul nozionale obbligazionario:
+
+$$
+R_{90/60,t}^{\mathrm{net}}\approx0{,}90R_{E,t}+0{,}60R_{B,t}-0{,}50R_{cash,t}-c_{TER,m}-0{,}60\frac{0{,}d}{12},
+\qquad c_{TER,m}=1-(1-0{,}25\%)^{1/12}.
+$$
+
 
 _(Come prima, da dicembre 2024 l'analisi usa invece i rendimenti reali osservati di NTSG e non più l'ETF replicato sinteticamente)_
 
@@ -65,32 +75,41 @@ In questo caso infatti, a fronte di un CAGR tuttosommato simile (7.51% vs 7.96%)
 
 Facendo uno step avanti nell'analisi, emergono (almeno) altre due cose worth mentioning:
 - la deviazione standard dei rendimenti cumulati rolling su 12 mesi è simile tra model portfolio e 60/40 (10.35% vs 9.97%), mentre è più alta per il 100% stocks (15.87%).
+
+![Rendimenti cumulati rolling a 12 mesi: model portfolio, 60/40 e 100% azioni](images/pareto-rolling-12-month-returns.png)
+
 - la correlazione rolling a sei mesi tra managed futures e 100% equities diminuisce durante i bear market azionari, a dimostrazione del fatto che il diversificatore funziona soprattutto nei momenti ni cui tutto sembra andare a puttane. Al contrario, nei momenti di fortin bull marketq  (esattamente come dal covid a oggi), difficile battere le azioni in termini di rendimento atteso
 
-Come controllo esplorativo ho effettuato un **bootstrap circolare a blocchi appaiati**, mantenendo insieme i rendimenti mensili del model portfolio e del 60/40. Ogni ricampionamento conserva la lunghezza del campione originale; i blocchi possono proseguire dalla fine all'inizio della serie. Il notebook rende riproducibile il calcolo con seed 20261110 e blocchi di 6, 12, 24 e 60 mesi, analizzati in quest'ordine con un unico generatore casuale.
+![Correlazione rolling a 6 mesi tra model portfolio e azioni, con regime azionario USD](images/pareto-rolling-correlation-equities.png)
+
+![Managed futures e azioni: rendimento totale e correlazione rolling](images/managed-futures-equities-correlation.png)
 
 Lunge da me 1) promuovere NTSG 2) denigrare VWCE & chill 3) smentire gente che ne sa molto più di me... Numeri e commenti proposti sono nascono solo da una curiosità e dalla necessità di scomporre e modellare un problea nel modo piùà accurato possibile, anche quando dati e regole del gioco sono tutt'altro che chiare.
 Secondariamente, come già accennato qui, attribuisco rilevanza molto limitata ai backtest... se "past performance is not indicative of future results" è una delle frasi più abusate a Wall Steet ci sarò un motivo!
 
 ---
 
-## Appendice A — Rischio valutario della proxy obbligazionaria
+## Appendice
 
-Un indice di obbligazioni estere cash non coperto incorpora il cambio sull'intero capitale investito. Se $X_t$ è il valore in USD di un'unità della valuta estera, il rendimento di un'obbligazione detenuta direttamente è:
+L'obiettivo iniziale dell'analisi era paragonare un'allocazione 90/60 + Managed Futures implementata tramite NTSG + DBMF su una finestra temporale estesa. Tuttavia, per mancanza di dati, l'analisi si avvicina a un confronto tra una strategia 90/60 + managed futures, costruita con return stacking, e il classico 60/40.
 
-$$
-1+R_{B,USD,t}=(1+R_{B,locale,t})\frac{X_t}{X_{t-1}}.
-$$
+## A0 — Metodologia
 
-Il cambio rivaluta quindi anche il capitale iniziale, non soltanto gli interessi o la variazione del prezzo locale. Nella proxy, applicare un peso del 60% a un indice cash unhedged porta con sé questa esposizione valutaria.
+Il backtest usa rendimenti mensili in USD da gennaio 1990 ad agosto 2026. Il 60/40 e il 100% azionario sono costruiti con le rispettive serie storiche disponibili; il model portfolio combina un'esposizione azionaria del 90%, un'esposizione obbligazionaria target del 60% e una quota di managed futures. Quando disponibili, i rendimenti osservati di NTSG e DBMF sostituiscono le rispettive proxy sintetiche.
 
-Un future obbligazionario, invece, non richiede di investire l'intero nozionale nella valuta del sottostante. Genera profitti e perdite, regolati tramite margini, e richiede collaterale. Per un contratto regolato in valuta estera, rilevano la conversione dei flussi di margine e l'esposizione della liquidità detenuta in quella valuta: il solo nozionale non equivale automaticamente a una posizione valutaria cash dello stesso importo.
+Per estendere il campione, il 90/60 è approssimato con indici azionari e obbligazionari più un drag annuo dello 0,50% applicato al nozionale obbligazionario; DBMF è invece rappresentato da SG CTA nel periodo 2000–2019 e da BTOP50 negli anni precedenti. I portafogli sono confrontati tramite rendimento totale, CAGR, volatilità, drawdown e rapporti rischio/rendimento. Il bootstrap circolare a blocchi appaiati verifica inoltre se il vantaggio relativo osservato sia robusto a diverse lunghezze di blocco. I risultati sono quindi indicativi: descrivono una simulazione con proxy e ipotesi esplicite, non la performance storica esatta di NTSG + DBMF.
 
-NTSG detiene collaterale in USD, EUR, GBP e JPY, mentre la proxy combina obbligazioni cash non coperte e finanziamento riferito ai T-bill USD. Differiscono quindi esposizione valutaria, carry, finanziamento e dinamica del collaterale, oltre a duration e pesi per paese. Un drag costante può rappresentare un costo ipotetico, ma **non corregge queste differenze strutturali**, che possono modificare anche volatilità e correlazioni. La metodologia ufficiale è richiamata nella [descrizione di NTSG](methodology/NTSG.md).
+## A1 — Rischio valutario della proxy obbligazionaria
 
-## Appendice B — Sensibilità delle ipotesi
+La proxy del 90/60 usa un indice di obbligazioni estere non coperto dal rischio di cambio. In pratica, se l'euro, la sterlina o lo yen si muovono contro il dollaro, il rendimento dell'indice cambia anche per effetto della valuta, oltre che per cedole e prezzi delle obbligazioni.
 
-Sulla configurazione gennaio 1990–agosto 2026, modificando un'ipotesi alla volta e lasciando invariati i mesi con rendimenti effettivi degli ETF:
+Un future obbligazionario non funziona allo stesso modo: espone al rendimento del titolo tramite margini e collaterale, senza richiedere l'acquisto dell'intero nozionale nella valuta estera. Perciò il 60% di un indice obbligazionario cash non equivale necessariamente al 60% di futures obbligazionari.
+
+NTSG mantiene collaterale in USD, EUR, GBP e JPY; la proxy combina invece obbligazioni non coperte con finanziamento legato ai T-bill USA. Cambiano quindi esposizione valutaria, carry, finanziamento e collaterale. Il drag inserito nel modello rappresenta solo un costo ipotetico e **non elimina queste differenze**: volatilità, correlazioni e rendimenti della proxy possono discostarsi da quelli di NTSG.
+
+## A2  Sensibilità delle ipotesi
+
+Sulla configurazione gennaio 1990–agosto 2026, il CAGR resta sensnbieile alle assunzioni di drag.
 
 | Ipotesi | CAGR model portfolio |
 | --- | ---: |
@@ -99,15 +118,13 @@ Sulla configurazione gennaio 1990–agosto 2026, modificando un'ipotesi alla vol
 | Drag obbligazionario 1.00% annuo sul nozionale | 7.31% |
 | Gross-up CTA ipotetico 2%/20%, con drag baseline | 8.52% |
 
-Il gross-up sposta il CAGR di circa **1.01 punti percentuali annui**, mentre dimezzare o raddoppiare i costi di trading dell'investitore lo porta rispettivamente a circa **7.52% e 7.48%**. Il gross-up è un'inversione ipotetica delle commissioni degli indici CTA aggregati, non una ricostruzione verificata delle commissioni dei singoli gestori. Questi scenari misurano la sensibilità alle assunzioni, non costituiscono intervalli di confidenza né giustificano la scelta del caso più favorevole.
+Il gross-up sposta il CAGR di circa **1.01 punti percentuali annui**, mentre dimezzare o raddoppiare i costi di trading dell'investitore lo porta rispettivamente a circa **7.52% e 7.48%**.
 
-## Appendice C — Qualità della proxy NTSG
+## A.3 Proxy NTSG
 
-Sul breve confronto con il NAV ufficiale, da dicembre 2024 ad agosto 2026, il notebook produce:
+Utilizzando un drag pari a zero, il breve confronto tra NTSG e il proxy 90/60, da dicembre 2024 ad agosto 2026, il notebook produce:
 
 - correlazione mensile **0.990**;
 - tracking error annualizzato **1.75%**;
-- **21 osservazioni mensili**.
 
-Questa diagnostica usa la proxy non calibrata con **drag zero**, mentre il backtest principale utilizza lo 0.50% annuo sul nozionale obbligazionario nei mesi sintetici. Il NAV include già le spese del fondo. La correlazione elevata è incoraggiante, ma risente della grande componente azionaria comune: un campione così breve non verifica la fedeltà della proxy nei diversi regimi storici né elimina la differenza valutaria descritta nell'Appendice A.
-
+Tuttavia, il backtest  utilizza lo 0.50% annuo sul nozionale obbligazionario nei mesi sintetici per adottare un approcio più conservativo.
