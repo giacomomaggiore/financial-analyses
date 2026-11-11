@@ -23,14 +23,15 @@ class ParetoMetricsTests(unittest.TestCase):
     def setUp(self):
         self.dates = pd.date_range("2020-01-31", periods=4, freq="ME")
 
-    def test_ulcer_index_uses_all_months_but_not_initial_date(self):
+    def test_drawdown_metrics_use_all_months_but_not_initial_date(self):
         wealth = pd.Series([0.9, 0.8, 1.0, 0.7], index=self.dates)
         previous = pd.Series([1.0, 0.9, 0.8, 1.0], index=self.dates)
         returns = (wealth / previous - 1).to_frame("test")
         metrics = namespace["summary_metrics"](returns, pd.Series(0.0, index=self.dates))
         expected = np.sqrt((0.1 ** 2 + 0.2 ** 2 + 0.0 ** 2 + 0.3 ** 2) / 4)
         self.assertAlmostEqual(metrics.loc["test", "Ulcer index"], expected)
-        self.assertAlmostEqual(metrics.loc["test", "Average drawdown"], -0.25)
+        self.assertAlmostEqual(metrics.loc["test", "Average drawdown"], -0.15)
+        self.assertEqual(namespace["format_summary"](metrics).loc["test", "Average drawdown"], "-15.00%")
         self.assertAlmostEqual(metrics.loc["test", "Max drawdown"], -0.3)
         self.assertEqual(namespace["format_summary"](metrics).loc["test", "Ulcer index"], "18.71%")
 
@@ -38,6 +39,15 @@ class ParetoMetricsTests(unittest.TestCase):
         returns = pd.DataFrame({"test": [0.01, 0.02, 0.0, 0.03]}, index=self.dates)
         metrics = namespace["summary_metrics"](returns, pd.Series(0.0, index=self.dates))
         self.assertEqual(metrics.loc["test", "Ulcer index"], 0.0)
+        self.assertEqual(metrics.loc["test", "Average drawdown"], 0.0)
+
+    def test_average_drawdown_weights_months_not_episodes(self):
+        dates = pd.date_range("2020-01-31", periods=6, freq="ME")
+        wealth = pd.Series([0.9, 0.8, 0.7, 1.0, 0.9, 0.8], index=dates)
+        previous = wealth.shift(1, fill_value=1.0)
+        returns = (wealth / previous - 1).to_frame("test")
+        metrics = namespace["summary_metrics"](returns, pd.Series(0.0, index=dates))
+        self.assertAlmostEqual(metrics.loc["test", "Average drawdown"], -0.15)
 
     def test_bootstrap_preserves_pairing_and_is_reproducible(self):
         values = [0.1, -0.1, 0.2, -0.2]
