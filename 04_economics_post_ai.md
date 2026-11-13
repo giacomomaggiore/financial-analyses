@@ -1,17 +1,73 @@
 
-Consideriamo un'economia composta da  N agenti che si dividono in due categorie:
-Consideriamo due tipi di agente: $U,E$. La popolazione totale è $N$.
+## Scelta di formazione e tipi di agente
 
-- $U$: non occupati;
-- $E$: occupati in lavori ad alto valore aggiunto non automatizzabili.
+Consideriamo un'economia composta da $N$ agenti e due periodi, $t=0,1$. Al tempo $t=0$, ogni agente sceglie se acquisire una formazione specialistica:
 
-Entrambi ricevono il reddito universale $B$ e un dividendo universale $D$. Solo $E$ lavora e riceve un salario.
+$$
+s_i\in\{0,1\},
+$$
 
-Sia $c_i$ il consumo di beni essenziali, $x_i$ il consumo di beni discrezionali e $\bar c$ il livello minimo di sussistenza.
+dove $s_i=1$ indica che l'agente studia. La formazione costa $\kappa_i>0$. Il costo è eterogeneo e distribuito nella popolazione secondo:
 
-Modelliamo ogni agente con la stessa funzione di utilità di Stone-Geary che introduce il librllo minimo \bar c per sopravvivere.
+$$
+\kappa_i\sim G(\kappa).
+$$
 
-Per l'agente U:
+Al tempo $t=0$, l'agente dispone di trasferimenti e dividendi iniziali e sostiene il costo della formazione:
+
+$$
+m_{i,0}=B_0+D_{i,0}-\kappa_i s_i.
+$$
+
+Al tempo $t=1$, la scelta determina il tipo dell'agente. Non introduciamo incertezza occupazionale: ogni agente formato ottiene un impiego specialistico.
+
+- $U$: agente non formato, con $s_i=0$, non occupato;
+- $E$: agente formato, con $s_i=1$, occupato in un lavoro ad alto valore aggiunto non automatizzabile.
+
+Indicando inizialmente con $D_i$ il dividendo individuale, il reddito al tempo $t=1$ è:
+
+$$
+m_{i,1}=B_1+D_{i,1}+(1-\tau_w)w s_i.
+$$
+
+Sia $c_i$ il consumo di beni essenziali, $x_i$ il consumo di beni discrezionali e $\bar c$ il livello minimo di sussistenza. In ciascun periodo gli agenti hanno preferenze Stone-Geary:
+
+$$
+u(c_i,x_i)=\beta\ln(c_i-\bar c)+(1-\beta)\ln(x_i).
+$$
+
+La funzione di utilità indiretta associata a un reddito disponibile $m$ è:
+
+$$
+v(m)=\ln(m-p_c\bar c)+C,
+$$
+
+dove $C$ è costante rispetto a $m$ e la soluzione richiede $m>p_c\bar c$. Con fattore di sconto $\eta\in(0,1)$, l'agente sceglie la formazione massimizzando:
+
+$$
+V_i(s_i)=v(m_{i,0})+\eta v(m_{i,1}).
+$$
+
+In particolare, studia se e solo se:
+
+$$
+\ln(B_0+D_{i,0}-\kappa_i-p_c\bar c)
+-\ln(B_0+D_{i,0}-p_c\bar c)
++\eta\left[
+\ln(m_{i,1}^{E}-p_c\bar c)
+-\ln(m_{i,1}^{U}-p_c\bar c)
+\right]\geq0.
+$$
+
+Il lavoro specialistico totale al tempo $t=1$ è quindi endogeno:
+
+$$
+L=\sum_{i=1}^{N}s_i.
+$$
+
+Nel seguito si omette l'indice temporale $t=1$. Nella prima sezione si assume proprietà privata egualitaria, quindi $D_i=D$.
+
+Per l'agente $U$:
 
 $$
 \begin{aligned}
@@ -23,7 +79,7 @@ $$
 \end{aligned}
 $$
 
-per l'agente E:
+Per l'agente $E$:
 
 $$
 \begin{aligned}
@@ -49,13 +105,17 @@ $$
 Y=F(K,L).
 $$
 
-Il profitto prima delle imposte è:
+Il capitale/AI è posseduto direttamente dagli azionisti dell'impresa: lo Stato possiede la quota $\gamma$ e i cittadini possiedono le quote $\theta_i$. Di conseguenza, il suo rendimento non è un pagamento separato $rK$ a soggetti esterni, ma confluisce nel flusso societario distribuibile agli azionisti.
+
+Definiamo il surplus societario prima delle imposte e della distribuzione come:
 
 $$
-\pi=Y-wL-rK,
+\pi=Y-wL-\delta K-I,
 $$
 
-dove $w$ è il salario lordo per unità di lavoro, $L$ è il lavoro totale impiegato e $r$ è il rendimento del capitale/AI.
+dove $w$ è il salario lordo per unità di lavoro, $L$ è il lavoro totale impiegato, $\delta K$ è il costo di mantenimento e deprezzamento del capitale/AI e $I$ è l'investimento netto trattenuto per espandere il capitale.
+
+Questa definizione chiude il bilancio dei redditi: salari e surplus societario sono interamente assegnati a lavoratori, cittadini o Stato. Il modello assume che l'AI generi rendite societarie positive. Con concorrenza perfetta, rendimenti di scala costanti e capitale remunerato separatamente al suo costo d'uso, varrebbe invece $Y=wL+rK$ e il profitto economico residuo sarebbe nullo.
 
 La quota $\gamma\in[0,1]$ delle imprese è posseduta dallo Stato. La quota restante $1-\gamma$ è posseduta dai cittadini. Sia $\theta_i$ la quota di proprietà posseduta dal cittadino $i$; allora:
 
