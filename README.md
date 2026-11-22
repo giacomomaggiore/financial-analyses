@@ -19,4 +19,15 @@ The default research sample starts in 2000 with SG CTA; AQR from 1985 and BTOP50
 
 [The assumption audit](methodology/realistic_backtest.md) documents every configuration choice, product source, cost allowance and limitation. Mixed access to UCITS and US ETFs is assumed. No pre-1985 history or historical ETF investability is fabricated.
 
+## Futures trend-following data
+
+[Daily futures source research](insights/trend_following_futures.md) documents the guide's instrument universe, public sources, coverage, missing histories and backtesting limitations. Downloaded CSVs, the catalog and provenance manifests are in `data/trend_following_futures/` (locally ignored by Git).
+
+```bash
+python -m helpers.download_trend_following_data
+python -m helpers.download_trend_following_data --validate-only
+```
+
+Back-adjusted futures may be negative; the column name `adjusted_price` does not imply total return. Do not feed these series into the shared positive-only ETF loader or splice them to Yahoo continuations.
+
 Cheers!
