@@ -129,8 +129,12 @@ class TrendComparisonTests(unittest.TestCase):
         }
         path = Path(__file__).resolve().parents[1] / '05_trend_following_futures.ipynb'
         notebook = json.loads(path.read_text())
+        parameters_cell = next(cell for cell in notebook['cells'] if cell['id'] == 'e7ccc257')
         benchmark_cell = next(cell for cell in notebook['cells'] if cell['id'] == '40363c06')
         backtest_cell = next(cell for cell in notebook['cells'] if cell['id'] == '28c72f90')
+        parameters = {}
+        exec(''.join(parameters_cell['source']), parameters)
+        self.env['EQUITY_BENCHMARK_TER'] = parameters['EQUITY_BENCHMARK_TER']
         exec(''.join(benchmark_cell['source']), self.env)
         self.backtest_source = ''.join(backtest_cell['source'])
         exec(self.backtest_source, self.env)
@@ -143,6 +147,12 @@ class TrendComparisonTests(unittest.TestCase):
         self.directions['A'][:] = 0
         args = ('ema', 1, 2, 2, 1, 100, 1., .001, 0., 1.)
         self.assertEqual(self.env['run_comparison'](*args).index[0], self.dates[2])
+
+    def test_equity_comparison_matches_the_index_without_a_fee(self):
+        for key in ('comparison', 'cash_start_comparison'):
+            comparison = self.env[key]
+            index = self.env['benchmark'].loc[comparison.index]
+            np.testing.assert_allclose(comparison['MSCI World Net Return USD'], index / index.iloc[0] * 100)
 
     def test_gap_books_held_pnl_then_exit_cost_at_next_mark(self):
         trend = self.env['comparison']['Futures Trend Following']
@@ -229,12 +239,13 @@ class InteractiveTrendTests(unittest.TestCase):
 
         def run_comparison(**parameters):
             self.calls.append(parameters)
-            return pd.DataFrame({'Trend': [100., 100. + parameters['risk_multiplier']],
-                                 'Equity': [100., 101.]},
+            return pd.DataFrame({'Futures Trend Following': [100., 100. + parameters['risk_multiplier']],
+                                 'MSCI World Net Return USD': [100., 101.]},
                                 index=pd.to_datetime(['2020-01-01', '2020-01-02']))
 
         self.env = {
             'pd': pd, 'plt': plt, 'run_comparison': run_comparison,
+            'STRATEGY_COLORS': {'Futures Trend Following': 'green', 'MSCI World Net Return USD': 'purple'},
             'comparison_summary': lambda levels: pd.DataFrame({'Trend': [levels.iloc[-1, 0]]}),
             'format_summary': lambda summary: summary, 'annotate_events': lambda ax: None,
             'display': self.displayed.append,
@@ -312,10 +323,12 @@ class TrendSensitivityTests(unittest.TestCase):
                             'Volatility': levels['risk_multiplier'] / 10,
                             'Sharpe ratio': levels['rebalance_days'] / 100}
             return pd.DataFrame({'Futures Trend Following': strategy,
-                                 'MSCI World ETF (net of TER)': benchmark,
+                                 'MSCI World Net Return USD': benchmark,
                                  'SG Trend (net)': sg_benchmark})
 
         env = {'pd': pd, 'np': np, 'plt': plt, 'PercentFormatter': PercentFormatter,
+               'STRATEGY_COLORS': {'Futures Trend Following': 'green', 'MSCI World Net Return USD': 'purple',
+                                   'SG Trend (net)': 'olive'},
                'run_comparison': run_comparison, 'monthly_comparison_summary': monthly_comparison_summary,
                'sg_monthly_comparison': sg_monthly_comparison, 'sg_comparison': pd.DataFrame(index=baseline_dates),
                'sg_cash': 'matched cash', 'cash_growth': 'daily cash', 'sg_returns': 'SG returns',
